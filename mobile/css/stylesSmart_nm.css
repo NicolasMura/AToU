@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media all and (max-device-width: 3000px)
+{
+	
+/*---------- SPECIFICITES PAGE LISTE ATELIERS --------------*/
+
+.titreListeCreations{
+font-size:1.1em;
+font-weight:900;
+color:#82358A;
+text-decoration:none;		
+}
+.pLight{
+font-size:0.8em;
+font-weight:100;
+color:#666666;
+padding:2% 0;
+display:block;
+text-decoration:none;
+}
+
+.pWeight{
+font-weight:900;
+color:black;
+font-size:0.9em;
+}
+
+
+
+/*.borderBottomWhite{
+	//border-bottom:3px solid #fff;
+	}
+
+/*.fleche{
+	background:url(../img/communPictoMenuFlechehori.png) no-repeat 95%;
+	}
+
+/*Blocs responsives*/
+
+
+footer{
+	
+margin-top:15px;	
+	
+}
+/*a:nth-child(5) {
+margin-bottom: 10px;
+	}*/
+
+/*.onglet:not(.onglet:first-child){
+	border:1px solid green;
+	}
+.onglet:not(:first-child){
+	border:1px solid green;
+	}
+.onglet:first-child{
+	border-top:1px solid green;
+	}*/

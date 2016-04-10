@@ -1,0 +1,1333 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media all and (max-device-width: 3000px)
+{
+#ficheCreation{
+margin:0;	
+}
+body{
+	font-family:"Alegreya Sans";
+	font-weight:300;
+	font-size:16px;
+	width:100%;
+	}
+html, body{/*Update Jeudi 10 avril 2014 */
+overflow:hidden;
+	}
+
+b{
+	font-weight:900;
+	}
+		
+#about{ 
+	font-family:"Alegreya Sans";  
+	display: block;
+  	width: 260px;
+  	background: #666;
+  	padding: 10px 0;
+  	padding-top: 35px;
+	//margin-left:15px;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	height:320px;
+	
+} 
+.about2{
+	height:7px;
+	width:260px;
+	background-color:white;	
+	margin: 6px 0;
+}
+#about p{
+margin:0;
+padding:0 0 10px 0;	
+margin-left:15px;
+text-transform:capitalize;
+}
+#about li{
+text-decoration:none;
+list-style-type:none;
+padding:10px 0;
+position:relative;
+}
+.liBorder{
+border-bottom: white solid 1px;
+border-top: white solid 1px;	
+}
+#about a{
+text-decoration:none;
+list-style-type:none;
+font-size:1.2em;
+font-weight:400;
+color:white;
+}
+#about h2{
+font-size:1.8em;
+font-weight:900;
+padding:10px 0;
+color:#82358A;
+margin-left:15px;
+}
+#about span{
+margin-left:15px;
+text-align:left;
+}
+.arrowAbout{
+position:absolute;
+right:0;
+padding:0 15px;
+}
+.content{
+	width:100%;
+	min-width:320px;
+	max-width:1080px;
+	margin:0 auto;
+	overflow: hidden;  
+ 	position: relative;  
+ 	//z-index: 2;
+	height: auto;  
+ 	display: block;
+  	background-color: white;
+	}
+.contentSub{
+
+padding:0 10px;
+	
+}
+/*------------------------------- Super Top -------------------------------*/
+.topTop{
+	width: 81px;
+	height: 41px;
+	display: inline-block;
+	background-image:url(../../img/mobilePictoBacktothetop.png);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	position: absolute;
+	margin-right: 50%;
+	margin-left:40%;
+	cursor:pointer;
+	//position:fixed;
+	z-index:15;
+	text-align:center;
+	//min-width:50%;
+	}
+
+/*------------------------------- HEADER -------------------------------*/
+
+header{
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	height:44px;
+	}
+
+#menuBurger{
+	//margin-left:15px;
+	float:left;
+	display:block;
+	width:44px;
+	height:44px;
+	//margin-top:5px;
+	}
+#logoAtou{
+	float:left;
+	//margin-top:5px;
+  	position:absolute;
+  	left:45%; /*centre le logo mais responsive ne fonctionne pas*/
+	}
+#pictoAdherent{/*Update Jeudi 10 avril 2014 */
+	//padding-right:2%;
+	float:right;
+	margin-top:5px;
+	display:block;
+	width:34px;
+	height:34px;
+	}
+
+
+/*------------------------------- MENU DEROULANT -------------------------------*/
+
+/*------------------------------- COMMUN CONTENU PAGES (SAUF FORMULAIRES) -------------------------------*/
+
+/* Stylage du bloc de texte centré présent dans les slides */
+
+
+.photoSlider{
+	
+	position:relative;
+	max-width: 100%;
+	margin:0 auto;
+}
+
+.legendSlide {
+border:1px solid white;
+position: absolute;
+line-height: 15px;
+display: block;
+top:10%;
+//bottom:20%;
+//width: 100%;
+color: white;
+background:rgba(255,255,255,0.7);
+margin-right:25%;
+margin-left:25%;
+text-align:center;
+padding: 15px 5px;
+min-width:50%;
+z-index:5;
+//height:40%;
+}
+
+.legendSlide2 {
+border:1px solid white;
+position: absolute;
+line-height: 15px;
+display: block;
+top:10%;
+//width: 100%;
+color: white;
+background:rgba(255,255,255,0.7);
+margin-right:25%;
+margin-left:25%;
+text-align:center;
+padding: 10px 5px;
+min-width:50%;
+z-index:5;
+//height:40%;
+}
+
+/* Stylage particulier des titres h2 du bloc de texte centré présent dans les slides */
+.legendSlide h2{
+	font-size:1em;
+	padding:0 0 0 0;
+	z-index:5;
+	padding: 0 0 5px 0;
+	line-height:20px;
+	font-weight:900;
+	}
+.legendSlide2 h2{
+	font-size:1.2em;
+	padding:0 0 0 0;
+	z-index:5;
+	line-height:20px;
+	}
+	/*.bxslider img {
+height:100%;
+width:100%;
+}*/
+	
+/* Stylage particulier des paragraphes du bloc de texte centré présent dans les slides */
+.legendSlide2 p{
+	font-size:0.8em;
+	color:#000;
+	padding:0 0 5px 0;
+	line-height:12px;
+	z-index:5;
+	text-transform:capitalize;
+	}
+
+
+.legendSlide p{
+	font-size:0.7em;
+	color:#000;
+	padding:0 0 5px 0;
+	line-height:12px;
+	z-index:5;
+	text-transform:capitalize;
+	}
+	
+/* personnalisation bxSlider */	
+
+.bx-wrapper {
+margin: 0 auto;
+	}
+.bx-viewport{	
+}
+.bx-wrapper .bx-viewport {
+	border:0;
+	-webkit-box-shadow:0 0 0; 
+ 	box-shadow:0 0 0;
+	margin:0 auto;
+	left:0;
+	height:auto;
+	background-color:black;
+	}
+	
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+.bx-wrapper .bx-prev{
+display:none;	
+}
+.bx-wrapper .bx-next{
+display:none;	
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+background: #82358A;
+border:1px solid white;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a{
+background: white;	
+}
+
+
+.retourListe{/*Update Jeudi 10 avril 2014 */
+	border:0px solid red;
+	background-color:#E5E5E5;
+	height:44px;
+	line-height:44px;
+	//background-image:url(../../img/mobilePictoBack.png);
+	//background-repeat:no-repeat;
+	//background-position:16px;
+	font-weight:900;
+	font-size:17px;
+	color:black;
+	text-transform:uppercase;
+	text-align:center;
+	padding-right:3%;
+	position:relative;
+	}
+		
+h1{
+	text-align:center;
+	font-size:28px;
+	font-weight:400;
+	color:#82358A;
+	text-transform:uppercase;
+	padding:15px;
+	line-height:30px; 
+	margin:0;
+	}
+h2{
+	text-align:center;
+	font-size:22px;
+	font-weight:400;
+	color:#82358A;
+	text-transform:uppercase;
+	padding:15px;
+	line-height:30px; 
+	}
+h4{/*Update Jeudi 10 avril 2014 */
+	width:35%;
+	margin:0 auto;
+	font-size:16px;
+	font-weight:300;	
+	text-align:center;
+	text-transform:uppercase;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+	padding:10px 0;
+	//margin-top:10px;
+	}
+	
+h5{ /* Intertitre */
+	font-family:Helvetica;
+	font-size:18px;
+	color:#82358A;
+	font-weight:600;
+	padding:10px;	
+	margin:0 auto;
+	}
+	
+.titreH3{/*Update Jeudi 10 avril 2014 */
+padding-top:15px;	
+}
+
+.teaserChat{
+margin:0 auto;
+padding:5px 50px 25px 50px;
+
+}
+.teaserChat p{
+text-align:center;
+padding:10px 15px;
+border-top: 1px solid #4F4F4F;
+border-bottom: 1px solid #4F4F4F;
+font-weight:300;
+font-size:18px;
+color:#4F4F4F;
+text-transform:none;
+}
+.NoteAuteur{
+text-align:center;
+padding:10px 15px;
+font-weight:300;
+font-size:18px;
+color:#4F4F4F;
+}
+.noteAdherent{
+color:black;
+font-size:22px;
+text-align:center;	
+}
+.dateAuteur{
+text-align:center;
+padding:10px 15px;
+font-weight:200;
+font-size:14px;
+color:#999999;
+font-style:italic;
+}
+
+.dashDot{
+width:15%;
+margin:0 auto;
+border-top:dotted 1px #999999;
+//background-color:#999999;
+display:block;
+height:1px;
+}
+.longDashDot{
+width:100%;
+margin:0 auto;
+border-top:dotted 1px #999999;
+//background-color:#999999;
+display:block;
+height:1px;
+margin:10% 0;
+}
+p{
+	font-family:Helvetica;
+	font-size::16px;
+	color:#333;
+	padding:10px 5px;
+	text-align:center;
+	text-transform:none;
+}
+
+.pFicheCreation{
+margin:0;
+padding: 20px 15px ;
+text-transform:none;
+}
+.pFicheCreation2{
+margin:0;
+padding: 0 15px 20px 15px;
+text-transform:none;
+}
+
+/* Boutons Y ALLER */
+.go{
+	//width:150px;
+	height:44px;
+	background:#82358A;
+	margin:0 auto;
+	color:white;
+	text-align:center;
+	line-height:44px;
+	font-weight:300;
+	font-size:18px;
+	text-transform:uppercase;
+}
+
+
+
+
+/* Pour un fond noir */
+.black{
+		background-color:black;
+	}
+.grey{
+		background-color:#999;
+	}
+.demiBoutons{
+width:100%;	
+}
+/* Pour un fond blanc */
+.white{
+	background-color:white;
+	}
+	
+/* Style général des menus */
+.bouton { /* */
+	background-color:black;
+	line-height:44px;
+	padding:0 0 0 0px;
+	margin-bottom:2px;
+	color:white; 
+	text-transform:uppercase;
+	}
+.bouton2 { /* */
+	background-color:#999;
+	line-height:44px;
+	padding:0 0 0 0px;
+	margin-bottom:2px;
+	color:#999; 
+	text-transform:uppercase;
+	text-align:center;
+	}
+.bouton3 a{ /* */
+	background-color:black;
+	line-height:44px;
+	padding:0 0 0 0px;
+	margin-bottom:2px;
+	color: white; 
+	text-transform:uppercase;
+	padding-left:10px;
+	//text-align:center;
+	}
+/* Styles des liens des menus*/
+
+.boutonFloatRight{
+	float:right;
+	width:49%;
+}
+.boutonFloatLeft{
+	float:left;
+	width:50%;
+}
+.bouton a{
+	padding-left:10px;
+	text-decoration:none;
+	display:block;
+	width:100%;
+	color:white;
+	text-transform:uppercase;
+	}
+.bouton a:last-child{
+	padding-left:10px;
+	text-decoration:none;
+	display:block;
+	color:white;
+	text-transform:uppercase;
+	}
+.bouton2 a{
+	padding-left:10px;
+	text-decoration:none;
+	display:block;
+	width:100%;
+	color:#333333;
+	text-transform:none;
+	text-align:left;
+	}
+.bouton span {
+	padding: 0 0 0 10px;
+	display:block;
+	}
+		
+.bouton p {
+	line-height:21px;
+	text-transform:none;
+	
+	}	
+/* Style général d'un bloc sans lien ni toggle */
+.bloc{
+	line-height:44px;
+	padding:0 0 0 10px;
+	margin-bottom:2px;
+	color:white;
+	position:relative;
+	}
+
+/* Styles des boutons toggle */
+.toggle{ /* affiche la flèche horizontale */
+	background:url(../../img/mobilePictoMenuFlechehori.png) 94% no-repeat;
+	background-size:17px;	
+	}
+	
+.toggleDown{ /* affiche la flèche down */
+	background:url(../../img/mobilePictoMenuFlechedown.png) 94% no-repeat;
+	background-size:17px;
+	}	
+
+.toggle2{ /* affiche la flèche horizontale */
+	background:url(../../img/mobilePictoMenuFlechehori2.png)  94% no-repeat;
+	background-size:17px;	
+	}
+	
+.toggleDown2{ /* affiche la flèche down */
+	background: url(../../img/mobilePictoMenuFlechedown2.png) 94% no-repeat;
+	background-size:17px;
+	}	
+.separator{
+padding:1px 0;	
+}
+
+/* Display du contenu toggle par défaut (contenu déroulant) */
+.deroule{
+	display:none;
+	background:#FFFFFF;
+	}
+.deroule H5{
+	text-align:center;
+	}
+.deroule p{
+	font-family:Helvetica;
+	font-size::16px;
+	color:#333;
+	padding:10px 10px;
+	text-align:center;
+	text-transform:none;
+	line-height:24px;
+	}
+
+	.deroule2{
+	display:none;
+	background:#FFFFFF;
+	}
+/*.deroule p{
+	text-transform:capitalize;
+	}*/
+
+	/* Style par défaut des adresses et des numéros de téléphone*/	
+address{ 
+	text-align:center;
+	margin:0px 0 0 0;
+	padding:0 0 15px 0; 
+	border:0px solid green;
+	}
+	
+	/*Lien adresse mail*/
+address a { 
+	color:#81358A!important;
+	font-size:18px;
+	font-weight:600;
+	display: block;
+	margin:0px 0 0px 0;
+	padding:10px 0 0 0;
+	border:0px solid orange;
+	text-decoration:underline;
+	}
+	
+	/*Adresse postale Atou*/
+.adresse{ 
+	font-size:20px;
+	font-weight:300;
+	}
+	
+	/*Fonction occupée*/
+h3{ 
+	font-size:20px;
+	font-weight:500;
+	text-align:center;
+	}
+	
+#homePage h3 {
+	padding:0;
+	margin:0;
+	}	
+.annule{
+	clear:both;
+	}
+.arrowBack{ /*Update Jeudi 10 avril 2014 */
+float:left;
+position:absolute;
+top:44px;
+left:0;	
+z-index:1;
+}
+/* Boutons de partage Facebook */
+
+.partage {
+	width:177px;
+	margin:0 auto;
+	heigth:44px;
+	line-height:44px;
+	padding:0 0 0 20px;
+	font-weight:300;
+	font-size:18px;
+	color:white;
+	background:#82358A;
+	border:2px solid white;
+	background-image:url(../../img/mobilePictoFacebookWhite.png);
+	background-repeat:no-repeat;
+	background-position:135px;
+	margin-top:10px;
+	margin-bottom:20px;
+	}
+/*------------------------------- LISTES CREATIONS -------------------------------*/
+
+
+
+.cartouche{/*cartouche texte à côté des photos*/
+	padding:2% 0;
+	border:0px solid red;
+	float:left;
+	width:50%;
+    height:35%;
+	}
+.cartouche p:first-child{/*cartouche texte à côté des photos*/
+	color:#666666;
+	}
+.onglet{
+	border:0px solid green;
+	margin:0 2%;
+	padding: 2% 0;
+	overflow:hidden;
+	height:100%;
+	}
+
+.borderTop{
+
+	border-top:1px solid #666;
+	
+}
+
+a{
+	display:block;
+	width:100%;
+	text-decoration:none;
+	}
+	
+	
+	.cartoucheAtelier{/*cartouche texte à côté des photos*/
+	padding:5% 0;
+	border:0px solid red;
+	float:left;
+	width:50%;
+    height:50%;
+	}
+
+
+.imgFicheCreation{
+	width:90%;
+	margin:0 auto;
+	}
+.imgFicheCreation p{
+	font-family: Helvetica;
+font-size: :16px;
+color: #333;
+padding: 10px 5px;
+text-align: center;
+text-transform: none;
+	}
+.imgFicheCreation img{
+	max-width:100%;
+	padding: 15px 0 15px 0;
+	margin:0;
+}
+.imag{
+	width:40%;
+	}
+
+.imag img{
+	max-width:100%;
+	float:left;
+	margin-right:5%;
+	}
+.titreListeCreations{
+font-size:1em;
+font-weight:900;
+color:#82358A;
+text-decoration:none;
+text-align:left;
+padding: 0 0 2% 0;
+line-height:1em;
+}
+.pLight{
+font-size:0.8em;
+font-weight:100;
+color:#666666;
+padding: 0 0 2% 0;
+display:block;
+text-decoration:none;
+text-align:left;
+text-transform:none;
+}
+
+.pWeight{
+font-weight:900;
+color:black;
+font-size:0.8em;
+padding: 0 0 2% 0;
+text-align:left;
+text-transform:none;
+}
+/*---------- SPECIFICITES PAGE FICHE ATELIERS --------------*/
+
+.adresse{
+	//float:left;
+	width:100%;
+	margin:0 auto;
+	font-family:helvetica;
+	font-size:16px;
+	line-height:20px;
+	font-weight:300;
+	color:#333333;
+	text-align:center;
+	padding:10px 0 20px 0;
+	}	
+
+.calendrier{ /*Update Jeudi 10 avril 2014 */
+	width:98%;
+	margin:0 auto;
+	margin-bottom: 15px;
+	padding-bottom:15px;
+	background:white;
+	border:1px solid grey; 
+	}
+.pictoCalendrier{ /*Update Jeudi 10 avril 2014 */
+	
+float:left;	
+}
+.date{/*Update Jeudi 10 avril 2014 */
+	width:60%;
+	line-height:48px;
+	height:44px;
+	float:left;
+	text-align:left;
+	//padding-left:5%;
+	font-family:helvetica;
+	font-size:16px;
+	font-weight:600;
+	color:black;
+	border-right:1px solid grey; 
+	//background:url(../../img/mobilePictoDate.png) no-repeat;
+	}
+	
+.heure{/*Update Jeudi 10 avril 2014 */
+	width:24%;
+	height:44px;
+	float:left;
+	//padding-top:6px;
+	//background:green;
+	text-align:center;
+	font-family:helvetica;
+	font-size:16px;
+	line-height:22px;
+	font-weight:300;
+	color:grey;
+	//border:1px solid grey; 
+	border-right:none;
+	border-top:none;
+	}
+
+.lieu{/*Update Jeudi 10 avril 2014 */
+	width:100%;
+	//height:50px;
+	//background:green;
+	font-family:helvetica;
+	font-size:21px;
+	line-height:28px;
+	font-weight:600;
+	color:#81358A;
+	text-align:center;
+	//margin-top:60px;
+	padding-top:18px;
+}
+.dateHeure{/*Update Jeudi 10 avril 2014 */
+	//padding-top:5px;
+	width:100%;
+	height:44px;
+	border-bottom:1px solid grey; 	
+}
+.go{
+	width:150px;
+	height:44px;
+	background:#82358A;
+	margin:0 auto;
+	color:white;
+	text-align:center;
+	font-weight:300;
+	font-size:18px;
+	text-transform:uppercase;
+}
+
+#ficheAtelier a{
+	text:black;
+	}
+	
+.blocCache{
+	display:none;
+	background:white;
+	width:90%;
+	margin:0 auto;
+	border:2px solid #82358A;
+	}
+	
+.centragePuce{
+	//margin:0 auto;
+	//width:100%;
+}
+	
+.centragePuce ul {
+	//position:relative;
+	margin:0 auto;
+	display:block;
+	width:214px;
+	height:44px;
+	border:0px solid red;
+	}
+	
+#ficheAtelier .centragePuce li{
+	float:left;
+	list-style:none;	
+	background:white;
+	width:44px;
+	height:44px;
+	border:1px solid grey;
+	margin-bottom:20px;
+	//margin-right:10px;
+	}
+#ficheAtelier  .centragePuce li:nth-child(3){
+	margin-left:5px;
+	margin-right:10px;
+	}
+#ficheAtelier .centragePuce  li:nth-child(2){
+	margin-left:10px;
+	margin-right:5px;
+	}	
+	
+.modeTransport{
+	margin:0 auto;
+	}
+	
+h5{
+	font-family:helvetica;
+	font-size:16px;
+	font-weight:600;
+	color:black;
+	padding:10px 0 10px 20px;
+	}
+
+p{
+	padding:0 0 0 20px;;
+	//margin:0px;
+}
+
+
+
+/*------------------------------- COMMUN CONTENU PAGES - FORMULAIRES -------------------------------*/
+
+label.error{ /* formuliare validate */ 
+	position:relative;
+	float:left;
+	//top:-100px;
+	//left:50px;
+	font-family: Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	color:white;
+	padding:15px;
+	//border:2px solid red;
+	border-radius:5px;
+	background:rgba(255, 00, 00, 0.70);
+	width:200px;
+	z-index:50;
+	}
+	
+.success{ 
+	position:relative;
+	float:left;
+	font-family: Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	color:white;
+	padding:15px;
+	//border:2px solid red;
+	border-radius:5px;
+	background-color:#E9E9E9;
+	font-weight:300;
+	color:#81358A;
+	//width:250px;
+	z-index:50;
+	margin:20px 0 0 0;
+}
+
+input .md_formNewsletterOK{
+	 -webkit-appearance: none;
+   -webkit-border-radius: 0em;
+}
+input, textarea, select,  {
+   -webkit-appearance: none;
+   -webkit-border-radius: 0em;
+}
+input [type="radio"]  {
+   
+   -webkit-border-radius: 0em;
+   background-color: white;
+}
+
+
+/* Pour aligner les éléments qui ne sont pas de types bloc dans les formulaires (les éléments de type bloc doivent avoir la propriété "margin:0 auto;" pour être centrés) */
+form{
+	padding:0 10px 0 10px;
+	}
+		
+/* Style par défaut des labels de tous les inputs dans tous les formulaires */
+.labelChamps{
+	width:98%;	
+	display:block;
+	font-weight:300;
+	text-align:left;
+	margin:30px 0 30px 0;
+	}
+.labelChamps2{
+	width:98%;	
+	display:block;
+	font-weight:300;
+	text-align:left;
+	margin:30px 0 30px 0;
+	}
+.messageAdherent{
+	width:98%;	
+	display:block;
+	font-weight:300;
+	text-align:left;
+	margin:30px 0 10px 0;
+	height: 120px;
+	background-color:#EEEEEE;
+	border: 1px solid rgb(156, 156, 156);
+}
+/* Style par défaut des labels de tous les inputs dans tous les formulaires */	
+form label i{
+	font-style:italic;
+	text-decoration:none;
+	color:#000000;
+	}
+/* Style du label de input burger */	
+.labelBurger i{
+	font-weight:200;
+	font-style:italic;
+	text-decoration:none;
+	color:white;
+	}
+.labelBurger {
+	font-weight:200;
+	font-style:italic;
+	text-decoration:none;
+	color:white;
+	margin-bottom: 5px;
+	
+	}
+.inputBurger {
+margin-top: 10px;
+width:70%;
+height:42px;
+}
+/* Styles par défaut des inputs dans tous les formulaires, pour leur donner une hauteur fixe et des bordures communes */
+input{
+	border:solid 1px black;
+	height:42px;
+	}
+
+/* Styles par défaut des inputs de classe .champs dans tous les formulaires, pour les centrer et leur donner des marges communes */
+.champs{
+	width:92%;	
+	margin:0 auto; /* Marge droite et gauche auto (centrage horizontal), marge haute 0px, marge basse 0px */
+	padding: 0px 0 2px 10px;
+	font-size: 16px;
+	}
+.champs2{
+	width:70%;	
+	margin:0 auto; /* Marge droite et gauche auto (centrage horizontal), marge haute 0px, marge basse 0px */
+	padding: 0 0 0 10px;
+	font-size: 16px;
+	}
+	input.champs{
+	border-radius:0;
+	background-color:white;
+	border:1px solid black;
+	}
+input.champs2{
+	border-radius:0;
+	background-color:white;
+	}
+/* Style par défaut du bouton de validation d'un formulaire */
+input.val{
+	-webkit-appearance: none;
+	display:block; 
+	//width:120px;
+	background-color:#82358A;
+	margin:30px auto;
+	font-size:18px;
+	color:white;
+	text-transform:uppercase;
+	border:none;
+	border-radius:0;
+	padding:0 10px;
+	}
+	.md_formNewsletterOK{
+	width:44px;
+	height:44px;
+	margin:0px 0px 10px 0px;
+	background:#000;
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+	padding:0 10px;
+	}
+	form.md_formNewsletter input.champs{
+	width: 80%;
+	height: 39px;
+	padding: 0px 0 2px 10px;
+	font-size: 16px;
+	}
+.formulaireInscription{
+width:100%;
+height:100%;
+}
+.formulaireInscriptionCentrage {
+margin: 10px 5%;
+text-align:center;	
+}
+/*------------------------------------ MAP ------------------------------------*/
+
+#carte{
+	height:500px;
+	width:98%;
+	margin:0 auto;
+	}
+
+/*------------------------------------Centrage pictos itinéraire ------------------------------------*/	
+	
+	#itineraire ul {
+	margin:0 auto;
+	display:block;
+	width:214px;
+	height:44px;
+	border:0px solid red;
+	}
+	
+#itineraire li{
+	float:left;
+	list-style:none;	
+	background:white;
+	width:44px;
+	height:44px;
+	border:1px solid grey;
+	margin-bottom:20px;
+	//margin-right:10px;
+	}
+#itineraire li:nth-child(3){
+	margin-left:5px;
+	margin-right:10px;
+	}
+#itineraire li:nth-child(2){
+	margin-left:10px;
+	margin-right:5px;
+	}
+	
+	
+/*------------------------------------ ITINÉRAIRE ------------------------------------*/
+.pictovoiture{width:44px;
+height:44px;
+display:block;}
+
+.pictotransit{width:44px;
+height:44px;
+display:block;}
+
+.pictopieds{width:44px;
+height:44px;
+display:block;}
+
+.pictovelo{width:44px;
+height:44px;
+display:block;}
+
+.gmapvoitureOn {
+		background:url(../../img/mobilePictoCarPurple.png) no-repeat;
+		} 
+/*	border:1px dotted red*/
+.gmapvoitureOff {
+		background:url(../../img/mobilePictoCarGrey.png) no-repeat;
+		}	
+/*border:1px solid red */
+
+.gmaptransitOn {background:url(../../img/mobilePictoTramPurple.png) no-repeat;}
+/*border:1px dotted green
+*/.gmaptransitOff {background:url(../../img/mobilePictoTramGrey.png) no-repeat;}
+/*border:1px solid green*/
+
+.gmappiedsOn {background:url(../../img/mobilePictoMarchePurple.png); no-repeat}
+/*border:1px dotted orange*/
+.gmappiedsOff {background:url(../../img/mobilePictoMarcheGrey.png); no-repeat}
+/*border:1px solid orange
+*/
+
+.gmapveloOn {background:url(../../img/mobilePictoBikePurple.png); no-repeat}
+/*border:1px dotted orange*/
+.gmapveloOff {background:url(../../img/mobilePictoBikeGrey.png); no-repeat}
+
+#detailParcours {
+	height:300px;
+	overflow:auto;
+	}
+	
+
+
+/*------------------------------- FOOTER -------------------------------*/
+
+#menuFooter a img{
+	//background-repeat:no-repeat;
+	//background-attachment:fixed;
+	//height:26px;
+	//margin:9px 15px 0 0;
+	float:right;
+	}
+.socialButton{
+position:absolute;
+right:0;
+top:0;
+width:132px;
+height:44px;
+}
+.mentionsLegales{
+color: black;
+text-align:center;
+margin: 0 10%;
+padding: 15px 0;
+font-weight:400;
+font-size:16px;
+}
+.mentionsLegales p{
+text-transform:none;
+}
+.mentionsLegales h5{ /* Intertitre */
+	font-family:Helvetica;
+	font-size:18px;
+	color:#82358A;
+	font-weight:600;
+	padding:10px;	
+	}
+
+/*------------LOGO 01-------------*/	
+#cadrePartenaire{
+	//width:100%;
+	//height:100%;
+	//margin-bottom:25px;
+	//margin:0 auto;
+	//margin-left:50%;
+	//margin-right:50%;
+	margin:0 auto;
+	}
+
+#cadrePartenaire  ul{
+	width:100%;
+	height:100%;
+	margin:0;
+	float:none;
+	text-align:center;
+	//border:1px red solid;
+	background:white;
+	}
+
+#cadrePartenaire li{
+	float:left;
+	//float:none;
+	margin:20px;
+	text-decoration:none;
+	display:block;
+	//width:20%;
+	//height:20%;
+	//border:hidden;
+	text-align:center;
+	//border:1px yellow solid;
+}
+
+#cadrePartenaire a{
+	display:block;
+	text-indent:-9999px; 
+	text-decoration:none;
+	padding:0;  /*permet de décaler le texte du a à -9999 px à gauche de l'écran*/
+
+}
+
+#logoMinistereCulture{
+	background:url(../../photosVignettes/partenairesLogoCulture.jpg) 0 -100px;
+	width:81px;
+	height:100px;
+	//border:0px solid yellow; 
+	
+	}
+/*------------LOGO 02-------------*/	
+	
+ #logoVilleLyon{
+	background:url(../../photosVignettes/partenairesVilleLyon.jpg) 0 -100px;
+	width:118px;
+	height:100px;
+	}
+	
+/*------------LOGO 03-------------*/	
+	
+ #logoRegion{
+	background:url(../../photosVignettes/partenairesRegion.jpg) 0 -100px;
+	width:112px;
+	height:100px;
+	}
+	
+	
+/*------------LOGO 04-------------*/	
+	
+#logoRhone{
+	background:url(../../photosVignettes/partenairesRhone.jpg) 0 -100px;
+	width:137px;
+	height:100px;
+	}
+	
+
+	
+/*------------LOGO 05-------------*/	
+	
+ #logoFondation{
+	background:url(../../photosVignettes/partenairesFondationdefrance.jpg) 0 -100px;
+	width:100px;
+	height:100px;
+	}
+/*------------LOGO 06-------------*/	
+	
+ #logoVauxenvelin{
+	background:url(../../photosVignettes/partenairesVauxenvelin.jpg) 0 -100px ;
+	width:308px;
+	height:100px;
+	
+	}		
+	
+	/*------------LOGO 07-------------*/	
+ #logoSpedidam{
+	background:url(../../photosVignettes/partenairesSpedidam.jpg) 0 -100px;
+	width:183px;
+	height:100px;
+	}	
+	
+	/*------------LOGO 08-------------*/	
+	
+ #logoCharliechaplin{
+	background:url(../../photosVignettes/partenairesCharliechaplin.jpg) 0 -100px;
+	width:89px;
+	height:100px;
+	}
+	
+	/*------------LOGO 09-------------*/	
+	
+ #logoAcse{
+	background:url(../../photosVignettes/partenairesAcse.jpg) 0 -100px;
+	width:162px;
+	height:100px;
+	}
+	/*------------CREDITS-------------*/	
+	.cadreAnnexes{
+	margin:0 auto;
+	width:100%;
+	background:#fff;
+	padding:20px 0 20px 0;
+	}		
+	.titreAnnexes{
+	font-family: Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:900;
+	color:#333;
+	margin:0;
+	padding:0;
+	
+	}
+	.cadreAnnexes p{
+	text-transform:capitalize;
+	}
+.centrageFacebook{
+width:100px;
+height:40px;
+margin-left:50%;
+margin-right:50%
+padding:0 0;
+background-color:white;
+border:1px solid red;
+z-index: 10;
+}
+.pluginButtonLabel{
+color: green;	
+}

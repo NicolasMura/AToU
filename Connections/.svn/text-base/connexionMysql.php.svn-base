@@ -1,0 +1,10 @@
+<?php
+# FileName="Connection_php_mysql.htm"
+# Type="MYSQL"
+# HTTP="true"
+$hostname_connexionMysql = "localhost:8889";
+$database_connexionMysql = "atoufr";
+$username_connexionMysql = "root";
+$password_connexionMysql = "root";
+$connexionMysql = mysql_pconnect($hostname_connexionMysql, $username_connexionMysql, $password_connexionMysql) or trigger_error(mysql_error(),E_USER_ERROR); 
+?>

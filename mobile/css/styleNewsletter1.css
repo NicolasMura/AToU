@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#newsletter body{
+	border:1px solid red;
+	width:100%;
+	min-width:320px;
+	max-width:1080px;
+	margin:0 auto;
+	}
+	
+form{
+	padding:30px 50px;
+	}
+
+form input.champs {
+	border:solid 2px black;
+	height:44px;
+	width:100%;
+	display:block;
+	}
+	
+form label.labelChamps{
+	display:block;
+	color:red;
+	padding:30px 0 10px 0; /*Haut Droite Bas Gauche*/
+	}
+	
+input.squaredOne{
+	-webkit-appearance: checkbox;
+	width:44px;
+	height:44px;
+	background-color:none;
+	background-image:url(../img/communPictoDisconnected.png);
+	border:none;
+	//opacity:0.2;
+	box-shadow:none;
+	cursor: auto;
+	}
+
+.square{
+	display:inline-block;
+	border:solid 2px black;
+	margin-right:25px;
+	}
+
+.square label{
+	border:solid 2px black;
+	float:left;
+	width:44px;
+	height:44px;
+	}
+
+#val{display:block;
+	width:120px;
+	background:black;
+	color:white;
+	margin:0 auto;
+	height:44px;}

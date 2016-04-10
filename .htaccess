@@ -1,0 +1,325 @@
+#Fichier .htaccess racine
+
+# Sitemap
+RedirectPermanent /sitemap.xml http://atou.fr/sitemap.php
+
+# Page d'erreur
+ErrorDocument 404 http://atou.local/danse-contemporaine-lyon/page404.php
+
+# Redirection mobile
+# RewriteCond %{HTTP_USER_AGENT} "ipod|iphone|ipad|android|palm|googlebot-mobile" [NC]          
+# RewriteRule (.*) http://mobile.atou.fr/ [R=301,L]
+
+# Redirections ancien site
+RedirectPermanent /home.html http://atou.fr/index
+RedirectPermanent /hakushu.html http://atou.fr/index
+RedirectPermanent /yakei.html http://atou.fr/index
+RedirectPermanent /MLM%20Nippon/MLM%20NIppon.html http://atou.fr/index
+RedirectPermanent /welcome.html http://atou.fr/index
+RedirectPermanent /actu http://atou.fr/index
+RedirectPermanent /raga.html http://atou.fr/index
+RedirectPermanent /partenaires.html http://atou.fr/index
+RedirectPermanent /contact.html http://atou.fr/index
+RedirectPermanent /atou.html http://atou.fr/index
+RedirectPermanent /Madness.html http://atou.fr/index
+RedirectPermanent /blackrain.html http://atou.fr/index
+RedirectPermanent /pieces http://atou.fr/index
+RedirectPermanent /avantquellenesefane.html http://atou.fr/index
+RedirectPermanent /raga.swf http://atou.fr/index
+RedirectPermanent /actu.html http://atou.fr/index
+RedirectPermanent /Black%20Rain.swf http://atou.fr/index
+RedirectPermanent /home.swf http://atou.fr/index
+RedirectPermanent /home.html http://atou.fr/index
+RedirectPermanent /atou http://atou.fr/index
+RedirectPermanent /yakei.html http://atou.fr/index
+RedirectPermanent /actu http://atou.fr/index
+
+# Redirections suite à urlRewriting
+RedirectPermanent /index http://atou.fr/fr/index
+RedirectPermanent /compagnie http://atou.fr/fr/compagnie
+RedirectPermanent /creations http://atou.fr/fr/creations
+RedirectPermanent /actions-artistiques http://atou.fr/fr/actions-artistiques
+RedirectPermanent /creations/shinmu-1 http://atou.fr/fr/creations/shinmu-1
+RedirectPermanent /creations/avant-qu-elle-ne-se-fane-2 http://atou.fr/fr/creations/avant-qu-elle-ne-se-fane-2
+RedirectPermanent /creations/welcome-23 http://atou.fr/fr/creations/welcome-23
+RedirectPermanent /creations/raga-25 http://atou.fr/fr/creations/raga-25
+RedirectPermanent /creations/daichi-26 http://atou.fr/fr/creations/daichi-26
+RedirectPermanent /creations/madness-love-and-mysticism-27 http://atou.fr/fr/creations/madness-love-and-mysticism-27
+RedirectPermanent /creations/ichigo-ichie-28 http://atou.fr/fr/creations/ichigo-ichie-28
+RedirectPermanent /creations/black-rain-29 http://atou.fr/fr/creations/black-rain-29
+RedirectPermanent /creations/mille-oasis-30 http://atou.fr/fr/creations/mille-oasis-30
+RedirectPermanent /creations/onsen-32 http://atou.fr/fr/creations/onsen-32
+RedirectPermanent /actions-artistiques/transforme-4 http://atou.fr/fr/actions-artistiques/transforme-4
+RedirectPermanent /actions-artistiques/bab-el-bal-6 http://atou.fr/fr/actions-artistiques/bab-el-bal-6
+RedirectPermanent /actions-artistiques/tohoku-project-7 http://atou.fr/fr/actions-artistiques/tohoku-project-7
+RedirectPermanent /actions-artistiques/nubes-8 http://atou.fr/fr/actions-artistiques/nubes-8
+RedirectPermanent /actions-artistiques/ichigo-ichie-9 http://atou.fr/fr/actions-artistiques/ichigo-ichie-9
+RedirectPermanent /newsletter http://atou.fr/fr/newsletter
+RedirectPermanent /partenaires http://atou.fr/fr/partenaires
+RedirectPermanent /sitemap http://atou.fr/fr/sitemap
+RedirectPermanent /mentions-legales http://atou.fr/fr/mentions-legales
+RedirectPermanent /contact http://atou.fr/fr/contact
+RedirectPermanent /contactPro http://atou.fr/fr/contactPro
+RedirectPermanent /fr/adherents http://atou.fr/adherents
+RedirectPermanent /en/adherents http://atou.fr/adherents
+
+# RewriteEngine = indispensable pour lancer le module de réécriture d'URL
+Options +FollowSymlinks
+RewriteEngine On
+
+# Règles de réécriture des urls
+RewriteCond %{HTTP_HOST} ^www.atou.fr$ [NC]
+RewriteRule ^(.*) http://atou.fr/$1 [QSA,L,R=301]
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr$ /index.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en$ /index.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/$ /index.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/$ /index.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/index$ /index.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/index$ /index.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/compagnie$ /danse-contemporaine-lyon/compagnie.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/compagnie$ /danse-contemporaine-lyon/compagnie.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/creations$ /danse-contemporaine-lyon/listeCreations.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/creations$ /danse-contemporaine-lyon/listeCreations.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/actions-artistiques$ /danse-contemporaine-lyon/listeActions.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/actions-artistiques$ /danse-contemporaine-lyon/listeActions.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/creations/([a-zA-Z\-]+)-([0-9]+)$ /danse-contemporaine-lyon/ficheCreation.php?url=$1&ID=$2&lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/creations/([a-zA-Z\-]+)-([0-9]+)$ /danse-contemporaine-lyon/ficheCreation.php?url=$1&ID=$2&lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/actions-artistiques/([a-zA-Z\-]+)-([0-9]+)$ /danse-contemporaine-lyon/ficheAction.php?url=$1&ID=$2&lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/actions-artistiques/([a-zA-Z\-]+)-([0-9]+)$ /danse-contemporaine-lyon/ficheAction.php?url=$1&ID=$2&lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/partenaires$ /danse-contemporaine-lyon/partenaires.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/partenaires$ /danse-contemporaine-lyon/partenaires.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/newsletter$ /danse-contemporaine-lyon/newsletter.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/newsletter$ /danse-contemporaine-lyon/newsletter.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/sitemap$ /danse-contemporaine-lyon/plan.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/sitemap$ /danse-contemporaine-lyon/plan.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/mentions-legales$ /danse-contemporaine-lyon/mentionsLegales.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/mentions-legales$ /danse-contemporaine-lyon/mentionsLegales.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/contact$ /danse-contemporaine-lyon/contact.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/contact$ /danse-contemporaine-lyon/contact.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^fr/contactPro$ /danse-contemporaine-lyon/contactPro.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^en/contactPro$ /danse-contemporaine-lyon/contactPro.php?lang=en
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^adherents/accueil$ /adherents/accueilAdherents.php
+RewriteCond %{HTTP_HOST} atou.fr
+RewriteRule ^adherents/login$ /adherents/index.php
+
+# Test
+# RewriteCond %{ENV:REDIRECT_BREAK} !^1$
+# RewriteCond %{QUERY_STRING} ^ID=([0-9]+)$
+# RewriteRule ^ficheCreation\.php$ %1 [R=301,L]
+
+# Temp pour test local
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr$ /index.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en$ /index.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/$ /index.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/$ /index.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/index$ /index.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/index$ /index.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/compagnie$ /danse-contemporaine-lyon/compagnie.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/compagnie$ /danse-contemporaine-lyon/compagnie.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/creations$ /danse-contemporaine-lyon/listeCreations.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/creations$ /danse-contemporaine-lyon/listeCreations.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/actions-artistiques$ /danse-contemporaine-lyon/listeActions.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/actions-artistiques$ /danse-contemporaine-lyon/listeActions.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/creations/([a-zA-Z\-]+)-([0-9]+)$ /danse-contemporaine-lyon/ficheCreation.php?url=$1&ID=$2&lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/creations/([a-zA-Z\-]+)-([0-9]+)$ /danse-contemporaine-lyon/ficheCreation.php?url=$1&ID=$2&lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/actions-artistiques/([a-zA-Z\-]+)-([0-9]+)$ /danse-contemporaine-lyon/ficheAction.php?url=$1&ID=$2&lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/actions-artistiques/([a-zA-Z\-]+)-([0-9]+)$ /danse-contemporaine-lyon/ficheAction.php?url=$1&ID=$2&lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/partenaires$ /danse-contemporaine-lyon/partenaires.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/partenaires$ /danse-contemporaine-lyon/partenaires.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/newsletter$ /danse-contemporaine-lyon/newsletter.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/newsletter$ /danse-contemporaine-lyon/newsletter.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/sitemap$ /danse-contemporaine-lyon/plan.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/sitemap$ /danse-contemporaine-lyon/plan.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/mentions-legales$ /danse-contemporaine-lyon/mentionsLegales.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/mentions-legales$ /danse-contemporaine-lyon/mentionsLegales.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/contact$ /danse-contemporaine-lyon/contact.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/contact$ /danse-contemporaine-lyon/contact.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^fr/contactPro$ /danse-contemporaine-lyon/contactPro.php?lang=fr
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^en/contactPro$ /danse-contemporaine-lyon/contactPro.php?lang=en
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^adherents/accueil$ /adherents/accueilAdherents.php
+RewriteCond %{HTTP_HOST} atou.local
+RewriteRule ^adherents/login$ /adherents/index.php
+
+# Temp pour test local (portfolio)
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr$ /projets/AToU/index.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en$ /projets/AToU/index.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/$ /projets/AToU/index.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/$ /projets/AToU/index.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/index$ /projets/AToU/index.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/index$ /projets/AToU/index.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/compagnie$ /projets/AToU/danse-contemporaine-lyon/compagnie.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/compagnie$ /projets/AToU/danse-contemporaine-lyon/compagnie.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/creations$ /projets/AToU/danse-contemporaine-lyon/listeCreations.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/creations$ /projets/AToU/danse-contemporaine-lyon/listeCreations.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/actions-artistiques$ /projets/AToU/danse-contemporaine-lyon/listeActions.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/actions-artistiques$ /projets/AToU/danse-contemporaine-lyon/listeActions.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/creations/([a-zA-Z\-]+)-([0-9]+)$ /projets/AToU//danse-contemporaine-lyon/ficheCreation.php?url=$1&ID=$2&lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/creations/([a-zA-Z\-]+)-([0-9]+)$ /projets/AToU//danse-contemporaine-lyon/ficheCreation.php?url=$1&ID=$2&lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/actions-artistiques/([a-zA-Z\-]+)-([0-9]+)$ /projets/AToU//danse-contemporaine-lyon/ficheAction.php?url=$1&ID=$2&lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/actions-artistiques/([a-zA-Z\-]+)-([0-9]+)$ /projets/AToU//danse-contemporaine-lyon/ficheAction.php?url=$1&ID=$2&lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/partenaires$ /projets/AToU/danse-contemporaine-lyon/partenaires.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/partenaires$ /projets/AToU/danse-contemporaine-lyon/partenaires.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/newsletter$ /projets/AToU/danse-contemporaine-lyon/newsletter.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/newsletter$ /projets/AToU/danse-contemporaine-lyon/newsletter.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/sitemap$ /projets/AToU/danse-contemporaine-lyon/plan.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/sitemap$ /projets/AToU/danse-contemporaine-lyon/plan.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/mentions-legales$ /projets/AToU/danse-contemporaine-lyon/mentionsLegales.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/mentions-legales$ /projets/AToU/danse-contemporaine-lyon/mentionsLegales.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/contact$ /projets/AToU/danse-contemporaine-lyon/contact.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/contact$ /projets/AToU/danse-contemporaine-lyon/contact.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^fr/contactPro$ /projets/AToU/danse-contemporaine-lyon/contactPro.php?lang=fr
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^en/contactPro$ /projets/AToU/danse-contemporaine-lyon/contactPro.php?lang=en
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^adherents/accueil$ /projets/AToU/adherents/accueilAdherents.php
+RewriteCond %{HTTP_HOST} portfolio.local
+RewriteRule ^adherents/login$ /projets/AToU/adherents/index.php
+
+# Temp pour test OVH
+# RewriteCond %{HTTP_HOST} ^www.nicolasmura.ovh/AToU$ [NC]
+# RewriteRule ^(.*) http://nicolasmura.ovh/AToU/$1 [QSA,L,R=301]
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr$ /projets/AToU/index.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en$ /projets/AToU/index.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/$ /projets/AToU/index.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/$ /projets/AToU/index.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/index$ /projets/AToU/index.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/index$ /projets/AToU/index.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/compagnie$ /projets/AToU/danse-contemporaine-lyon/compagnie.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/compagnie$ /projets/AToU/danse-contemporaine-lyon/compagnie.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/creations$ /projets/AToU/danse-contemporaine-lyon/listeCreations.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/creations$ /projets/AToU/danse-contemporaine-lyon/listeCreations.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/actions-artistiques$ /projets/AToU/danse-contemporaine-lyon/listeActions.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/actions-artistiques$ /projets/AToU/danse-contemporaine-lyon/listeActions.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/creations/([a-zA-Z\-]+)-([0-9]+)$ /projets/AToU/danse-contemporaine-lyon/ficheCreation.php?url=$1&ID=$2&lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/creations/([a-zA-Z\-]+)-([0-9]+)$ /projets/AToU/danse-contemporaine-lyon/ficheCreation.php?url=$1&ID=$2&lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/actions-artistiques/([a-zA-Z\-]+)-([0-9]+)$ /projets/AToU/danse-contemporaine-lyon/ficheAction.php?url=$1&ID=$2&lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/actions-artistiques/([a-zA-Z\-]+)-([0-9]+)$ /projets/AToU/danse-contemporaine-lyon/ficheAction.php?url=$1&ID=$2&lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/partenaires$ /projets/AToU/danse-contemporaine-lyon/partenaires.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/partenaires$ /projets/AToU/danse-contemporaine-lyon/partenaires.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/newsletter$ /projets/AToU/danse-contemporaine-lyon/newsletter.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/newsletter$ /projets/AToU/danse-contemporaine-lyon/newsletter.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/sitemap$ /projets/AToU/danse-contemporaine-lyon/plan.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/sitemap$ /projets/AToU/danse-contemporaine-lyon/plan.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/mentions-legales$ /projets/AToU/danse-contemporaine-lyon/mentionsLegales.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/mentions-legales$ /projets/AToU/danse-contemporaine-lyon/mentionsLegales.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/contact$ /projets/AToU/danse-contemporaine-lyon/contact.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/contact$ /projets/AToU/danse-contemporaine-lyon/contact.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^fr/contactPro$ /projets/AToU/danse-contemporaine-lyon/contactPro.php?lang=fr
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^en/contactPro$ /projets/AToU/danse-contemporaine-lyon/contactPro.php?lang=en
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^adherents/accueil$ /projets/AToU/adherents/accueilAdherents.php
+RewriteCond %{HTTP_HOST} nicolasmura.ovh
+RewriteRule ^adherents/login$ /projets/AToU/adherents/index.php

@@ -1,0 +1,12 @@
+<img id="logo" src="<?php echo CHEMIN_SITE;?>/img/menuLogo1024.jpg" alt="logo AToU"  />
+                  
+<nav id="menuHeader">
+	<ul>
+	<li><a href="#" id="compagnie">COMPAGNIE</a></li>
+	<li><a href="#" id="creations">CREATIONS</a></li>
+	<li><a href="#" id="actions">ACTIONS CULTURELLES</a></li>
+	</ul>
+</nav>
+
+<p id="adherents">
+<img src="<?php echo CHEMIN_SITE;?>/img/menuPictoAdherent1024.png" alt="picto adhérent" width="11px" />ESPACE ADHERENTS</p>

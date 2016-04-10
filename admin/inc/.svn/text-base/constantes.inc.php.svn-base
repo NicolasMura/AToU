@@ -1,0 +1,5 @@
+<?php
+//define("CHEMIN_SITE", "http://localhost/Gobelins/AToU_site_local/trunk"); // PC local
+define("CHEMIN_SITE", "http://localhost:8888/trunk"); //  Mac local
+//define("CHEMIN_SITE", "http://localhost/Gobelins/AToU_site_local/trunk"); // Serveur distant
+?>

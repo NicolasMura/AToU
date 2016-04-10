@@ -1,0 +1,394 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*------------STYLE GENERAUX-------------*/
+
+#listeCreations .big, #accueilAdherents .big{
+	height:40px;
+	}
+
+#listeCreations .bordNoir, #accueilAdherents .bordNoir{
+	border:2px solid black;
+	}	
+	
+#listeCreations h3, #accueilAdherents #zone1 h3{
+	position:absolute;
+	top:-20px;
+	left:-63px;
+	}
+
+
+/*------------A ajouter style GENERAUX-------------*/
+	
+object{
+	margin:20px;
+	}
+
+		
+/*------------Propre à liste création------------*/
+	
+#listeCreations .cadre1{; 
+	position:relative;
+	width:784px;
+	margin:0 auto;
+	}
+	
+#listeCreations #zone1 .cadre1 .cartouche {
+	position:absolute;
+	top:290px;
+	left:575px;
+	}		
+	
+#listeCreations .petitBlocContour{
+	width:200px;
+	float:left;
+	border-top:none;
+	}
+
+#listeCreations .grandBlocContour{
+	width:578px;
+	float:left;
+	border-top:none;
+	border-left:none;
+	}
+		
+#listeCreations #zone3 .cartouche{
+	position:absolute;
+	top:305px;
+	left:565px;
+	}
+	
+#listeCreations #zone3 h2{
+	color:black;
+	}	
+
+#listeCreations #zone3 h3{
+	position:absolute;
+	top:63px;
+	left:-63px;
+	}	
+
+#listeCreations #zone1 .pictoPlayVideo{
+	position:absolute;
+	top:170px;
+	left:360px;
+	}	
+	
+/*------------Propre à accueil adhérents------------*/
+
+#accueilAdherents .cartouche p{
+	margin:0;
+	}
+		
+#accueilAdherents #zone1 .imgTacheBlanche, #accueilAdherents #zone3 .imgTacheBlanche{
+	left:-76px;
+	width:88px;
+	height:677px;
+	}
+		
+#accueilAdherents .cadre1{ 
+	position:relative;
+	//float:left;
+	width:626px;
+	margin-left:70px;
+	margin-top:20px;
+	}
+	
+#accueilAdherents .cadre2{ 
+	position:relative;
+	float:right;
+	width:626px;
+	margin-right:96px;
+	margin-top:-31px;
+	}
+
+#accueilAdherents .cadre3{ 
+	position:relative;
+	width:626px;
+	margin-left:70px;	
+	margin-top:44px;
+	}
+	
+#accueilAdherents .cadre4{ 
+	position:relative;
+	float:right;
+	width:626px;
+	margin-right:96px;
+	margin-top:-31px;
+	margin-bottom:70px;
+	}					
+
+#accueilAdherents #zone1 h3{
+	position:absolute;
+	top:-46px;
+	left:-70px;
+	}
+	
+#accueilAdherents #zone2 h3{
+	position:absolute;
+	top:-42px;
+	left:-220px;
+	}	
+
+#accueilAdherents #zone3 h3{
+	position:absolute;
+	top:-46px;
+	left:-70px;
+	}
+	
+#accueilAdherents #zone4 h3{
+	position:absolute;
+	top:-42px;
+	left:-220px;
+	}					
+	
+#accueilAdherents .petitBlocContour{
+	width:154px;
+	float:left;
+	border-top:none;
+	}
+
+#accueilAdherents .grandBlocContour{
+	width:466px;
+	float:left;
+	border-top:none;
+	border-left:none;
+	}
+	
+#accueilAdherents #zone1 .cartouche{
+	position:absolute;
+	top:260px;
+	left:575px;
+	}			
+	
+#accueilAdherents #zone2 .cartouche{
+	position:absolute;
+	top:305px;
+	left:420px;
+	}
+	
+#accueilAdherents #zone3 .cartouche{
+	position:absolute;
+	top:290px;
+	left:575px;
+	}
+	
+#accueilAdherents #zone4 .cartouche{
+	position:absolute;
+	top:305px;
+	left:420px;
+	}			
+
+/*------------Propre à liste actions------------*/
+	
+#listeActions .cadre1{; 
+	position:relative;
+	width:784px;
+	margin:0 auto;
+	}
+	
+#listeActions #zone1 .cadre1 .cartouche {
+	position:absolute;
+	top:94px;
+	left:575px;
+	}		
+	
+#listeActions .petitBlocContour{
+	width:200px;
+	height:42px;
+	float:left;
+	border-top:none;
+	//background:red;
+	}
+
+#listeActions .grandBlocContour{
+	width:578px;
+	height:42px;
+	float:left;
+	border-top:none;
+	border-left:none;
+	}
+		
+#listeActions #zone3 .cartouche, #listeActions #zone4 .cartouche{
+	position:absolute;
+	//top:305px;
+	//left:565px;
+	}
+	
+#listeActions #zone3 h2{
+	color:black;
+	}
+	
+#listeActions #zone3 .cadre3 .cartouche{
+	//margin-top:-5px;
+	border:2px solid black;
+	}
+
+#listeActions #zone3 h3{
+	position:absolute;
+	background:black;
+	//top:63px;
+	//left:-63px;
+	}	
+
+#listeActions #zone1 .pictoPlayVideo{
+	position:absolute;
+	top:170px;
+	left:360px;
+	}	
+	
+	
+	
+/*------------Propre à discussion------------*/	
+
+#discussion .cartouche p{
+	margin:0;
+	}
+	
+#discussion #zone1, #discussion #zone2{
+	width:944px;
+	position:relative;
+	border:1px solid red;
+	}
+	
+#discussion #zone1 .cadre1{ 
+	float:left;
+	width:626px;
+	margin-left:70px;
+	}
+	
+#discussion #zone2 .cadre1{ 
+	float:left;
+	width:626px;
+	}	
+	
+#discussion #zone2 .cadre2{ 
+	//position:relative;
+	float:right;
+	width:300px;
+	margin-top:0px;
+	border:1px solid yellow;
+	}		
+	
+#discussion .petitBlocContour{
+	width:154px;
+	height:46px;
+	float:left;
+	border-top:none;
+	}
+
+#discussion .grandBlocContour{
+	width:466px;
+	height:46px;
+	float:left;
+	border-top:none;
+	border-left:none;
+	}
+	
+#discussion #zone1 .cartouche{
+	position:absolute;
+	top:260px;
+	left:575px;
+	}
+	
+#discussion .blocRappel{
+	margin-top:0;
+	}
+
+
+
+
+/*------------PROPRE a liste Ateliers-------------*/
+
+#listeAteliers #zone1, #listeAteliers #zone2{
+	position:relative;
+	width:944px;
+	}
+
+#listeAteliers #zone1 .cadre1{
+	float:left;
+	width:624px;
+	margin-top:20px;
+	}
+
+#listeAteliers #zone1 .cadre2 {
+	float:left;
+	margin-top:22px;	
+	}
+	
+#listeAteliers #zone2 .cadre1{
+	position:relative;
+	float:left;
+	width:624px;
+	margin-top:80px;
+	//background:white;
+	}
+	
+#listeAteliers #zone1 .cadre1 h3{
+	position:absolute;
+	top:-17px;
+	left:20px;
+	font-size:40px;
+	}
+	
+#listeAteliers #zone2 .cadre1 h3{
+	position:absolute;
+	top:-40px;
+	left:20px;
+	font-size:40px;
+	}	
+	
+#listeAteliers #zone1 .cadre1 p, #listeAteliers #zone2 .cadre1 p{
+	//position:relative;
+	float:left;
+	margin-top:60px;
+	width:300px;
+	//background:red;
+	}
+	
+#listeAteliers #zone1 .cadre2 {
+	//position:relative;
+	float:right;
+	//margin-top:60px;
+	width:300px;
+	//background:red;
+	}	
+	
+#listeAteliers .cadre1 .imgDroite{
+	float:right;
+	width:280px;
+	margin-top:60px;
+	}	
+
+#listeAteliers .cadre1 .lien{
+	position:relative;
+	float:left;
+	margin:0 0 0 4px;
+	height:10px;
+	border:none;
+	//background:red;
+	}
+	
+#listeAteliers .cadre1 .lien:hover{
+	margin:0 0 0 4px;
+	border:none;
+	background:white;
+	color:#6E2C77;
+	background-image:url(../img/communPictoCartouchePurple.png);
+	background-repeat: no-repeat;
+	background-position:20px 12px;
+	}	
+	
+#listeAteliers .blocFondblanc{
+	//background:white;
+	border:2px solid black;
+	padding:20px;
+	}
+
+#listeAteliers .facebook{
+	position:relative;
+	float:right;
+	margin:0px;
+	}
+		
+	

@@ -1,0 +1,419 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*---------------------------PAGE COMPAGNIE----------------------------*/
+/*---------------------------------------------------------------------*/
+
+/*------------Commun-------------*/
+	
+#compagnie .cadre1{
+	//position:relative;
+	width:620px;
+	border-bottom:0px white solid;
+	//margin-bottom:40px;
+	}
+	
+/*------------Zone1-------------*/
+	
+#compagnie #zone1{
+	position:relative;
+	}
+
+/*------------Cadre1-------------*/
+
+#compagnie #zone1 .big h1{
+	font-size:150px;
+	//z-index:10;
+	color:#FFFFFF;
+	}
+
+#compagnie #zone1 .cadre1 .big{
+	width:692px;
+	//height:519px;
+	border-bottom:0px white solid;
+	}
+
+#compagnie #zone1 #compagnie1{
+	width:692px;
+	//height:519px;
+	//z-index:-999;
+	}
+
+#compagnie #zone1 #firstBlock{
+	width:150px;
+	height:38px;
+	float:left;
+	}
+
+#compagnie .annule{
+	clear:both;
+	}
+	
+#compagnie #zone1 #secondBlock{
+	width:552px;
+	height:38px;
+	margin-left:140px;
+	}
+
+#compagnie #zone1 #thirdBlock{
+	width:150px;
+	height:38px;
+	float:left;
+	border-top:0px white solid;
+	}
+	
+#compagnie #zone1 #fourthBlock{
+	width:552px;
+	height:38px;
+	margin-left:140px;
+	border-top:0px white solid;
+	}
+
+/*------------Cadre2-------------*/
+
+#compagnie .cadre2{
+	width:296px;
+	position:absolute;
+	top:-20px;
+	right:0px;
+	}
+
+#compagnie .big2 p{
+	font-family:"Alegreya Sans";
+	font-size:21px;
+	color:#FFF;
+	padding-left:20px;
+	}
+
+#compagnie #zone1 #firstBlock2{
+	float:left;
+	padding:20px 20px 10px 20px;
+	}
+
+#compagnie #zone1 a{
+	text-decoration:none;
+	font-family: Helvetica, sans-serif;
+	color:#FFF;
+	line-height:17px; 
+	}
+	
+#compagnie #firstBlock2 li{
+	padding-bottom:15px;
+	}
+		
+#compagnie .creationTitre{
+	font-style:italic;
+	font-weight:900;
+	font-size:16px;
+	background-image:url(../img/communPictoCartoucheWhite.png);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+	border-bottom:0px white solid;
+	padding-left:15px;
+	}	
+	
+#compagnie .creationDate{
+	font-style:italic;
+	font-weight:600;
+	font-size:12px;
+	}
+	
+#compagnie .creationDescription{
+	display:block;
+	font-size:14px;
+	padding-left:15px;
+	}
+	
+#compagnie .callToAction, #compagnie .nm_callToAction{
+	border:2px solid white;
+	}	
+	
+#compagnie .callToAction2:hover, #compagnie .nm_callToAction:hover{
+	color:white;
+	}		
+	
+/*------------Zone2-------------*/
+
+#compagnie #zone2{
+	position:relative;
+	margin-bottom:190px;
+	margin-top:30px;
+	}
+		
+/*------------Cadre1-------------*/
+
+#compagnie #zone2 .cadre1{
+	padding:60px 0 20px 0;
+	}
+		
+#compagnie #zone2 #compagnie2{
+	float:left;
+	margin:8px 20px 30px -3px;
+	}
+
+#compagnie #zone2 .titrePosAbs{
+	left:-15px;
+	top:-32px;
+	}
+	
+/*------------Cadre2-------------*/
+
+#compagnie #zone2 .cadre2{
+	width:296px;
+	//position:absolute;
+	margin-top:20px;
+	}	
+	
+/*------------Zone3-------------*/
+
+#compagnie #zone3{
+	position:relative;
+	margin-bottom:100px;
+	}
+	
+/*------------Cadre1-------------*/
+	
+#compagnie #zone3 #compagnie3{
+	float:right;
+	margin:8px 0px 20px 20px;
+	}
+
+#compagnie #zone3 .cadre1{
+	padding:90px 0 20px 0;
+	}
+
+/*------------Zone4-------------*/
+
+#compagnie #zone4{
+	position:relative;
+	//float:left;
+	//margin-bottom:100px;
+	
+	}
+
+/*------------Cadre1-------------*/
+	
+#compagnie .titrePosAbs{
+	position:absolute;
+	left:-15px;
+	top:-65px;
+	}
+	
+#compagnie #zone4 #compagnie4{
+	float:left;
+	margin:8px 20px 30px 0;
+	}
+	
+#compagnie #zone4 .cadre1{
+	padding-top:80px;
+	//padding-bottom:80px;
+	margin-bottom:40px;
+	}
+	
+
+		
+/*-------------------------PAGE FICHE CREATION SHINMU--------------------------*/
+
+
+/*---------------------------Style TACHE-------------------------------------------*/
+
+#ficheCreation #imgTacheBlanche{
+	position:absolute;
+	width:55px;
+	height:571px;
+	top:-20px;
+	left:910px;
+	}
+	
+#ficheCreation #imgTacheBlanche03{
+	position:absolute;
+	width:99px;
+	height:717px;
+	top:1210px;
+	left:700px;
+	}	
+
+/*------------Zone1 Zone2 Zone3-------------*/
+
+#ficheCreation #zone2{
+	//border:1px solid red;
+	}
+
+#ficheCreation #zone1{
+	//border:solid 1px red;
+	position:relative;
+	width:944px;
+	}
+	
+#ficheCreation .cadre1{
+	//border:1px solid  cyan;
+	float:left;
+	width:624px;
+	//margin-top:20px;
+	}	
+	
+#ficheCreation #zone1 .cadre2{
+	//border:1px solid green;
+	float:right;
+	width:300px;
+	}
+	
+#ficheCreation #zone1 .cadre2 a.nm_rustine{
+	display:inline-block;
+	}
+	
+#ficheCreation #zone1 .cadre1 .big{
+	position:relative;
+	}		
+	
+#ficheCreation #zone2 .cadre1{
+	//border:1px solid yellow;
+	position:relative;
+	float:left;
+	}		
+	
+#ficheCreation #zone3 .cadre3{
+	position:relative;
+	width:944px;
+	}		
+	
+/*------------Cadre1-------------*/
+	
+#ficheCreation #zone1 .cadre1 h3, #ficheCreation #zone2 .cadre1 h3{
+	position:absolute;
+	top:-20px;
+	left:-20px;
+	z-index:10;
+	}	
+
+#ficheCreation .blocRappel {
+	float:left;
+	//margin-top:30px;
+	}		
+	
+#ficheCreation .blocRappel h3{
+	//background:black;
+	left:-15px;
+	top:-30px;
+	}	
+
+
+#ficheCreationShinmu1{
+	position:relative;
+	float:left;
+	margin:10px 20px 30px 20px;
+	}
+	
+	
+#lienRustine{
+	//border:1px solid red;
+	position:inherit;
+	margin:0 0 -2px -2px; ;
+	}
+
+/*------------Cadre2-------------*/
+
+#ficheCreation .callToAction2{
+	margin-bottom:10px;
+	width:235px;
+	}
+	
+#ficheCreation #zone1 #firstBlock2{
+	position:relative;
+	width:258px;
+	//border-top:none;
+	}
+
+#ficheCreation #zone1 a{
+	text-decoration:none;
+	}
+	
+#ficheCreation .facebook{
+	margin-top:10px;
+	margin-bottom:30px;
+	}
+
+/*------------Cadre1-------------*/
+	
+#ficheCreation #zone1 #ficheCreationShinmu2, #ficheCreation #zone2 #ficheCreationShinmu2{
+	position:relative;
+	float:left;
+	margin:0px 20px 30px 0px;
+	}
+
+/*---------------------------PAGES CREDITS - CONTACT - MENTIONS LEGALES - PLAN DU SITE----------------------------*/
+
+#credits .cadreAnnexes, #contact .cadreAnnexes, #pageMentionsLegales .cadreAnnexes, #planDuSite .cadreAnnexes{
+	margin:0 auto;
+	width:620px;
+	background:#fff;
+	padding:20px 0 20px 0;
+	}		
+
+#imgTacheBlancheAnnexes{
+	float:left;
+	width:55px;
+	height:571px;
+	margin-top:-120px;
+	margin-left:20px;
+	}
+
+.titreAnnexes{
+	font-family: Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:900;
+	color:#333;
+	margin:0;
+	padding:0;
+	}
+	
+#credits #zone1 p, #contact #zone1 p, #pageMentionsLegales #zone1 p, #planDuSite #zone1 p{
+	font-size:14px;
+	line-height:21px;
+	color:#333;
+	padding:0;
+	margin:0 20px 0 20px;
+	//border:red 1px solid;
+	}
+
+#pageMentionsLegales h5, #planDuSite h5{
+	margin-top:30px;
+	}
+
+#contact .lienContact1{
+	font-family: Helvetica, sans-serif;
+	font-size:14px;
+	line-height:21px;
+	color:#333;
+	padding:0 0 0 20px;
+	}
+	
+#contact .lienContact2{
+	font-size:14px;
+	line-height:21px;
+	font-weight:900;
+	color:#333;
+	padding:0;
+	margin:0;
+	}
+
+#planDuSite .cadreAnnexes a{
+	margin-left: 20px;
+	color: black;
+	text-decoration: underline;
+}
+
+#planDuSite .cadreAnnexes a:hover{
+	color: #81358a;
+}
+
+#planDuSite .cadreAnnexes a.creation,
+#planDuSite .cadreAnnexes a.actionCulturelle,
+#planDuSite .cadreAnnexes a.itemAdherent{
+	margin-left: 60px;
+}
+
+#planDuSite .cadreAnnexes a.sousItemAdherent{
+	margin-left: 100px;
+}

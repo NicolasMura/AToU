@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+/*-------------------------PAGE ADHERENTS // GALERIE PHOTOS--------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+
+/*------------Cadre1-------------*/
+#galerie section ul {
+	//overflow:hidden;
+	//text-align:center;
+	display : table;
+	margin : 0 auto;
+	}
+
+#galerie section ul li{
+	list-style:none;
+	float:left;
+	margin-right:5px;
+	}
+
+#chiffreActif{
+	font-family:"Alegreya Sans";
+	/*font-family:"Courier New", Courier, monospace;*/
+	font-weight:300;
+	font-size:20px;
+	line-height:29px;
+	padding:5px;
+	text-align:center;
+	display:block;
+	width:25px;
+	height:25px;
+	background-color:#81358A;
+	border:1px solid white;	
+	}
+
+#galerie section .cadre1{
+    margin:0 auto;
+    width:620px;
+    }
+
+#galerie section .chapo{
+    padding-bottom:0px;
+    }
+
+#galerie section .navGalerie{
+    text-align:center; /* centrer le bloc */
+    line-height:36px;
+    padding:35px;
+    }
+    
+#galerie section .navGalerie:hover{
+    text-align:center;
+    }  
+	
+#galerie section .navGalerie a{
+color:white;
+font-family:"Alegreya Sans";
+/*font-family:"Courier New", Courier, monospace;*/
+font-weight:300;
+font-size:20px;
+line-height:29px;
+padding:5px;
+text-align:center;
+display:block;
+width:25px;
+height:25px;
+background-color:black;
+border:1px solid white;	
+}
+
+#galerie section .navGalerie a:hover{
+color:white;
+//font-size:30px;
+padding:5px;
+text-align:center;
+width:25px;
+display:block;
+background-color:#81358A;
+	border:1px solid white;	
+} 
+
+#galerie section .navGalerie li:last-child{
+	text-align:left;
+} 
+
+#galerie section .vignette {
+border: #FFFFFF solid 2px;
+display:block;
+width:144px;
+height:144px;
+z-index:1;
+}
+
+#galerie section .gabaritVignette {
+padding: 6px 6px;
+display:block;
+width:144px;
+height:144px;
+position:relative;
+float:left;
+}
+
+#galerie section .iconDownload{
+display:block;
+//background-image:url(../img/communPictoTelecharger.png);
+position:absolute;
+z-index:2;
+bottom:10px;
+right:10px;
+}
+
+#galerie section .navVignette{
+    font-family:"Alegreya Sans";
+    font-weight:300;
+    color:#FFF;
+    font-size:21px;
+    line-height:29px;
+    text-align:center;
+    /*padding:0 5px 0 5px;*/
+	overflow:hidden;
+    }

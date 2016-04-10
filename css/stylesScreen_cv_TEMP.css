@@ -1,0 +1,372 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*---------------------------PAGE COMPAGNIE----------------------------*/
+/*---------------------------------------------------------------------*/
+
+/*------------Commun-------------*/
+	
+#compagnie .cadre1{
+	position:relative;
+	width:620px;
+	border-bottom:0px white solid;
+	//padding:125px 25px 25px 25px; /* Ht Dte Bas Gche*/
+	//padding-top:80px;
+	//margin:80px 0 50px;
+	}
+	
+/*------------Zone1-------------*/
+	
+#compagnie #zone1{
+	position:relative;
+	}
+
+/*------------Cadre1-------------*/
+
+#compagnie #zone1 .big h1{
+	font-size:150px;
+	z-index:10;
+	color:#FFFFFF;
+	}
+
+#compagnie #zone1 .cadre1 .big{
+	width:692px;
+	height:519px;
+	border-bottom:0px white solid;
+	}
+
+#compagnie #zone1 #compagnie1{
+	width:692px;
+	height:519px;
+	z-index:-999;
+	}
+
+#compagnie #zone1 #firstBlock{
+	width:150px;
+	height:38px;
+	float:left;
+	}
+
+#compagnie .annule{
+	clear:both;
+	}
+	
+#compagnie #zone1 #secondBlock{
+	width:552px;
+	height:38px;
+	margin-left:140px;
+	}
+
+#compagnie #zone1 #thirdBlock{
+	width:150px;
+	height:38px;
+	float:left;
+	border-top:0px white solid;
+	}
+	
+#compagnie #zone1 #fourthBlock{
+	width:552px;
+	height:38px;
+	margin-left:140px;
+	border-top:0px white solid;
+	}
+
+/*------------Cadre2-------------*/
+
+#compagnie .cadre2{
+	width:296px;
+	position:absolute;
+	top:-20px;
+	right:0px;
+	}
+
+#compagnie .big2 p{
+	font-family:"Alegreya Sans";
+	font-size:21px;
+	color:#FFF;
+	padding-left:20px;
+	}
+
+#compagnie #zone1 #firstBlock2{
+	padding:20px 20px 10px 20px;
+	}
+
+#compagnie #zone1 a{
+	text-decoration:none;
+	font-family: Helvetica, sans-serif;
+	color:#FFF;
+	line-height:17px; 
+	}
+	
+#compagnie #firstBlock2 li{
+	padding-bottom:15px;
+	}
+		
+#compagnie .creationTitre{
+	font-style:italic;
+	font-weight:900;
+	font-size:16px;
+	background-image:url(../img/communPictoCartoucheWhite.png);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+	border-bottom:0px white solid;
+	padding-left:15px;
+	}	
+	
+#compagnie .creationDate{
+	font-style:italic;
+	font-weight:600;
+	font-size:12px;
+	}
+	
+#compagnie .creationDescription{
+	display:block;
+	font-size:14px;
+	padding-left:15px;
+	}
+	
+#compagnie .callToAction{
+	border:2px solid white;
+	}	
+	
+/*------------Zone2-------------*/
+
+#compagnie #zone2{
+	position:relative;
+	margin-bottom:190px;
+	}
+		
+/*------------Cadre1-------------*/
+
+#compagnie #zone2 .cadre1{
+	padding:60px 0 20px 0;
+	}
+		
+#compagnie #zone2 #compagnie2{
+	float:left;
+	margin:8px 20px 30px -3px;
+	}
+
+#compagnie #zone2 .titrePosAbs{
+	left:-15px;
+	top:-46px;
+	}
+	
+/*------------Cadre2-------------*/
+
+#compagnie #zone2 .cadre2{
+	width:296px;
+	position:absolute;
+	top:25px;
+	}
+
+	
+/*------------Zone3-------------*/
+
+#compagnie #zone3{
+	position:relative;
+	margin-bottom:100px;
+	}
+	
+/*------------Cadre1-------------*/
+	
+#compagnie #zone3 #compagnie3{
+	float:right;
+	margin:8px -5px 20px 20px;
+	}
+
+#compagnie #zone3 .cadre1{
+	padding:90px 0 20px 0;
+	}
+
+/*------------Zone4-------------*/
+
+#compagnie #zone4{
+	//border:1px solid red;
+	}
+
+/*------------Cadre1-------------*/
+	
+#compagnie .titrePosAbs{
+	position:absolute;
+	left:-15px;
+	top:-65px;
+	}
+	
+#compagnie #zone4 #compagnie4{
+	float:left;
+	margin:8px 20px 30px -5px;
+	}
+	
+#compagnie #zone4 .cadre1{
+	padding-top:80px;
+	}
+	
+	
+	
+/*-------------------------PAGE FICHE CREATION--------------------------*/
+/*----------------------------------------------------------------------*/
+
+#ficheCreation #imgTacheBlanche{
+	position:relative;
+	float:right;
+	width:55px;
+	height:571px;
+	margin-top:1400px;
+	margin-right:80px;
+	}
+
+/*------------Zone1-------------*/
+	
+#ficheCreation #zone1{
+	position:relative;
+	}
+	
+/*------------Cadre1-------------*/
+
+#ficheCreation h3{
+	//z-index:99;
+	position:absolute;
+	left:-15px;
+	top:-30px;
+	}
+
+#ficheCreation #zone1 .cadre1 .big{
+	width:620px;
+	padding:60px 0 20px 0; /* Ht Dte Bas Gche*/
+	margin-top:25px;
+	}
+	
+#ficheCreation #zone1 #ficheCreationShinmu1{
+	float:left;
+	margin:10px 20px 30px 20px;
+	}
+
+/*------------Cadre2-------------*/
+
+#ficheCreation .cadre2{
+	width:296px;
+	position:absolute;
+	top:-20px;
+	right:0px;
+	}
+	
+#ficheCreation #zone1 .cadre2 .callToAction{
+	width:256px;
+	margin-top:22px;
+	}
+	
+#ficheCreation #zone1 .cadre2 .cartouche{
+	margin-top:25px;
+	margin-right:20px;
+	}
+
+#ficheCreation #zone1 #firstBlock2{
+	margin-top:185px;
+	}
+
+#ficheCreation #zone1 a{
+	text-decoration:none;
+	}
+	
+#ficheCreation #zone1 .facebook{
+	margin-top:5px;
+	}
+	
+/*------------Zone2-------------*/
+
+#ficheCreation #zone2{
+	position:relative;
+	}
+
+/*------------Cadre1-------------*/
+	
+#ficheCreation #zone2 .cadre1 .big{
+	width:620px;
+	padding:30px 0px 20px 0px; /* Ht Dte Bas Gche*/
+	margin-top:130px;
+	margin-bottom:35px;
+	}
+	
+#ficheCreation #zone2 #ficheCreationShinmu2{
+	float:left;
+	margin:0px 20px 30px 0px;
+	}
+
+/*------------Cadre2-------------*/
+
+#ficheCreation #zone2 .cadre2 .cartouche{
+	//position:relative;
+	top:20px;
+	right:0px;
+	}
+
+/*------------Zone3-------------*/
+
+#ficheCreation #zone3 {
+	position:relative;
+	//margin:0 auto;
+	//background:red;
+	}
+	
+#ficheCreation #zone3 .cadre2{
+	position:absolute;
+	top:100px;
+	left:-20px;
+	}			
+
+/*-------------------------PAGE PARTENAIRES--------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+#partenaires h2{
+	color:#000;	
+	}
+
+/*#partenaires firstBlock{
+	width:91px;
+	height:119px;
+	background-image:url(../img/logoPartenaires.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;	
+	}*/
+	
+/*<div id="firstBlock">
+						<img id="logoPartenaires1" src="../img/logoPartenaires.jpg" alt="photo logo partenaires" width="796" height="248" />
+					</div>*/
+	
+	
+/*-------------------------PAGE ADHERENTS // GALERIE PHOTOS--------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+
+/*------------Cadre1-------------*/
+
+#galerie .cadre1{
+	margin:0 auto;
+	width:620px;
+	}
+
+#galerie .chapo{
+	padding-bottom:0px;
+	}
+
+#galerie .navGalerie{
+	font-family:"Alegreya Sans";
+	font-weight:300;
+	color:#FFF;
+	font-size:21px;
+	line-height:29px;
+	text-align:center;
+	padding:35px;
+	}
+	
+#galerie .navGalerie:hover{
+	color:#6E2C77;
+	font-size:30px;
+	}	
+	
+	
+	
+	
+	

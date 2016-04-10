@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://atou.fr/fr/index</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/compagnie</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/actions-artistiques</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations/shinmu-1</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations/avant-qu-elle-ne-se-fane-2</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations/raga-25</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations/welcome-23</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations/daichi-26</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations/madness-love-and-mysticism-27</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations/ichigo-ichie-28</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations/black-rain-29</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations/mille-oasis-30</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/creations/onsen-32</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/actions-artistiques/transforme-4</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/actions-artistiques/tohoku-project-7</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/actions-artistiques/bab-el-bal-6</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/actions-artistiques/nubes-8</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/fr/actions-artistiques/ichigo-ichie-9</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/newsletter</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/partenaires</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/sitemap</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/mentions-legales</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/contact</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://atou.fr/contactPro</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+</urlset>

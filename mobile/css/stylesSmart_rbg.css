@@ -1,0 +1,426 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media all and (max-device-width: 3000px)
+{
+
+body{
+	font-family:"Alegreya Sans";
+	font-weight:300;
+	font-size:16px;
+	width:100%;
+	}
+html, body{/*Update Jeudi 10 avril 2014 */
+//overflow:hidden;
+	}
+.content{
+	width:100%;
+	min-width:320px;
+	max-width:1080px;
+	margin:0 auto;
+	}
+
+/*------------------------------- HEADER -------------------------------*/
+
+header{
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	height:44px;
+	}
+
+#menuBurger{
+	//margin-left:15px;
+	float:left;
+	//margin-top:5px;
+	}
+#logoAtou{
+	float:left;
+	//margin-top:5px;
+  	position:absolute;
+  	left:45%; /*centre le logo mais responsive ne fonctionne pas*/
+	}
+#pictoAdherent{/*Update Jeudi 10 avril 2014 */
+	//padding-right:2%;
+	float:right;
+	margin-top:5px;
+	}
+
+/*------------------------------- COMMUN CONTENU PAGES (SAUF FORMULAIRES) -------------------------------*/
+
+/* Stylage du bloc de texte centré présent dans les slides */
+.legendeSlide{
+	position:absolute;/*bloc légende placé sur la photo*/
+	left:55%;/*centrer le bloc légende. Tout dépend de la largeur du bloc.*/
+	top:40%;
+	width:35%;
+	padding:5px 10px;
+	margin:-5% 0 0 -20%;
+	color:#000;
+	border:1px solid white;
+	/*white-space:nowrap;*/
+	text-align:center;
+	background:rgba(255,255,255,0.7);/*blanc transparent*/
+	}
+	
+/* Stylage particulier des titres h2 du bloc de texte centré présent dans les slides */
+.legendeSlide h2{
+	font-size:30px;
+	padding:10px 0 10px 0;
+	}
+	
+/* Stylage particulier des paragraphes du bloc de texte centré présent dans les slides */
+.legendeSlide p{
+	font-size:16px;
+	color:#000;
+	padding:0 0 10px 0;
+	line-height:10px; 
+	}
+	
+/* personnalisation bxSlider */	
+.sliderContainer {
+	background:#000;
+	border-top:1px solid #fff;/*filet blanc haut*/
+	border-bottom:1px solid #fff;/*filet blanc bas*/
+	}
+	
+.bx-wrapper {
+	margin-bottom:0px;
+	}
+	
+.bx-wrapper .bx-viewport {
+	border:0;
+	-webkit-box-shadow:0 0 0; 
+ 	box-shadow:0 0 0;
+	}
+	
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	bottom:20px;
+}	
+ .bx-wrapper .bx-pager.bx-default-pager a.active {
+	 background:#81358A;
+	 }
+.bx-wrapper .bx-pager.bx-default-pager a {
+	width:16px;
+	height:16px;
+	background:#;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:8px;
+	}
+	
+.bxslider img {height:428px;}
+ 
+.bx-controls-direction{
+	display:none;
+	}	
+/* Fil d'ariane (classe à appliquer sur les h1) */
+.retourListe{/*Update Jeudi 10 avril 2014 */
+	border:0px solid red;
+	background-color:#E5E5E5;
+	height:44px;
+	line-height:44px;
+	//background-image:url(../../img/mobilePictoBack.png);
+	//background-repeat:no-repeat;
+	//background-position:16px;
+	font-weight:900;
+	font-size:17px;
+	color:black;
+	text-transform:uppercase;
+	text-align:center;
+	padding-right:3%;
+	position:relative;
+	}
+		
+h1{
+	text-align:center;
+	font-size:28px;
+	font-weight:400;
+	color:#82358A;
+	text-transform:uppercase;
+	padding:15px;
+	line-height:30px; 
+
+	}
+	
+h4{/*Update Jeudi 10 avril 2014 */
+	width:35%;
+	margin:0 auto;
+	font-size:16px;
+	font-weight:300;	
+	text-align:center;
+	text-transform:uppercase;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+	padding:10px 0;
+	//margin-top:10px;
+	}
+	
+h5{ /* Intertitre */
+	font-family:Helvetica;
+	font-size:18px;
+	color:#81358A;
+	font-weight:600;
+	padding:10px;	
+	}	
+.titreH3{/*Update Jeudi 10 avril 2014 */
+padding-top:15px;	
+}
+p{
+	font-family:Helvetica;
+	font-size::16px;
+	color:#333;
+	padding:10px;	
+	
+}
+
+/* Boutons Y ALLER */
+.go{
+	width:150px;
+	height:44px;
+	background:#81358A;
+	margin:0 auto;
+	color:white;
+	text-align:center;
+	line-height:44px;
+	font-weight:300;
+	font-size:18px;
+	text-transform:uppercase;
+}
+
+
+/* Boutons de partage Facebook */
+.partage{
+	width:177px;
+	margin:0 auto;
+	heigth:44px;
+	line-height:44px;
+	padding:0 0 0 20px;
+	font-weight:300;
+	font-size:18px;
+	color:white;
+	background:#81358A;
+	border:2px solid white;
+	background-image:url(../../img/mobilePictoFacebookWhite.png);
+	background-repeat:no-repeat;
+	background-position:135px;
+	margin-top:10px;
+	margin-bottom:20px;
+	}
+	
+/* Pour un fond noir */
+.black{
+		background-color:black;
+	}
+
+/* Pour un fond blanc */
+.white{
+	background-color:white;
+	}
+	
+/* Style général des menus */
+.bouton { /* */
+	background-color:black;
+	line-height:44px;
+	padding:0 0 0 0px;
+	margin-bottom:2px;
+	color:white; 
+	text-transform:uppercase;
+	}
+
+/* Styles des liens des menus*/
+.bouton a{
+	padding-left:10px;
+	text-decoration:none;
+	display:block;
+	width:100%;
+	color:white;
+	text-transform:uppercase;
+	}
+.bouton span {
+	padding: 0 0 0 10px;
+	display:block;
+	}
+		
+.bouton p {
+	line-height:21px;
+	text-transform:lowercase;
+	}	
+/* Style général d'un bloc sans lien ni toggle */
+.bloc{
+	line-height:44px;
+	padding:0 0 0 10px;
+	margin-bottom:2px;
+	color:white;
+	position:relative;
+	}
+
+/* Styles des boutons toggle */
+.toggle{ /* affiche la flèche horizontale */
+	background:url(../../img/mobilePictoMenuFlechehori.png) 94% no-repeat;
+	background-size:17px;	
+	}
+	
+.toggleDown{ /* affiche la flèche down */
+	background:url(../../img/mobilePictoMenuFlechedown.png) 94% no-repeat;
+	background-size:17px;
+	}	
+
+/* Display du contenu toggle par défaut (contenu déroulant) */
+.deroule{
+	display:none;
+	background:#FFFFFF;
+	}
+
+	/* Style par défaut des adresses et des numéros de téléphone*/	
+address{ 
+	text-align:center;
+	margin:0px 0 0 0;
+	padding:0 0 15px 0; 
+	border:0px solid green;
+	}
+	
+	/*Lien adresse mail*/
+address a { 
+	color:#81358A!important;
+	font-size:18px;
+	font-weight:600;
+	display: block;
+	margin:0px 0 0px 0;
+	padding:10px 0 0 0;
+	border:0px solid orange;
+	}
+	
+	/*Adresse postale Atou*/
+.adresse{ 
+	font-size:20px;
+	font-weight:300;
+	}
+	
+	/*Fonction occupée*/
+h3{ 
+	font-size:20px;
+	font-weight:500;
+	text-align:center;
+	}
+	
+#homePage h3 {
+	padding:0;
+	margin:0;
+	}	
+.annule{
+	clear:both;
+	}
+.arrowBack{ /*Update Jeudi 10 avril 2014 */
+float:left;
+position:absolute;
+top:44px;
+left:0;	
+z-index:1;
+}
+
+/*------------------------------- COMMUN CONTENU PAGES - FORMULAIRES -------------------------------*/
+
+/* Pour aligner les éléments qui ne sont pas de types bloc dans les formulaires (les éléments de type bloc doivent avoir la propriété "margin:0 auto;" pour être centrés) */
+form{
+	padding:0 10px 0 10px;
+	}
+		
+/* Style par défaut des labels de tous les inputs dans tous les formulaires */
+form label.labelChamps{
+	display:block;
+	font-weight:300;
+	text-align:left;
+	margin:30px 0 10px 0;
+	}
+
+/* Style par défaut des labels de tous les inputs dans tous les formulaires */	
+form label i{
+	font-style:italic;
+	text-decoration:none;
+	color:#000000;
+	}
+		
+/* Styles par défaut des inputs dans tous les formulaires, pour leur donner une hauteur fixe et des bordures communes */
+form input{
+	border:solid 1px black;
+	height:44px;
+	}
+
+/* Styles par défaut des inputs de classe .champs dans tous les formulaires, pour les centrer et leur donner des marges communes */
+form input.champs{
+	width:98%;	
+	margin:0 auto; /* Marge droite et gauche auto (centrage horizontal), marge haute 0px, marge basse 0px */
+	padding: 0px 0 2px 10px;
+	font-size: 16px;
+	}
+
+ 
+/* Style par défaut du bouton de validation d'un formulaire */
+form input.val{
+	display:block; 
+	width:120px;
+	background:#81358A;
+	margin:30px auto;
+	font-size:18px;
+	color:white;
+	text-transform:uppercase;
+
+	}
+	
+/*------------------------------------ MAP ------------------------------------*/
+
+#carte{
+	height:500px;
+	margin:20px;
+	}
+/*------------------------------------ ITINÉRAIRE ------------------------------------*/
+
+.gmapvoitureOn {
+		background:url(../../img/mobilePictoCarPurple.png) no-repeat;} 
+/*	border:1px dotted red*/
+.gmapvoitureOff {
+		background:url(../../img/mobilePictoCarGrey.png) no-repeat;}	
+/*border:1px solid red */
+
+.gmaptransitOn {background:url(../../img/mobilePictoTramPurple.png) no-repeat;}
+/*border:1px dotted green
+*/.gmaptransitOff {background:url(../../img/mobilePictoTramGrey.png) no-repeat;}
+/*border:1px solid green*/
+
+.gmappiedsOn {background:url(../../img/mobilePictoMarchePurple.png); no-repeat}
+/*border:1px dotted orange*/
+.gmappiedsOff {background:url(../../img/mobilePictoMarcheGrey.png); no-repeat}
+/*border:1px solid orange
+*/
+
+.gmapveloOn {background:url(../../img/mobilePictoBikePurple.png); no-repeat}
+/*border:1px dotted orange*/
+.gmapveloOff {background:url(../../img/mobilePictoBikeGrey.png); no-repeat}
+
+#detailParcours {
+	height:300px;
+	overflow:auto;
+	}
+	
+
+
+/*------------------------------- FOOTER -------------------------------*/
+
+#menuFooter a img{
+	//background-repeat:no-repeat;
+	//background-attachment:fixed;
+	//height:26px;
+	//margin:9px 15px 0 0;
+	float:right;
+	}
+.socialButton{
+position:absolute;
+right:0;
+top:0;
+width:132px;
+height:44px;
+}
+
+
+	
+

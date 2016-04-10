@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*---------- SPECIFICITES HOME PAGE --------------*/
+
+/* Pour aligner les éléments qui ne sont pas de types bloc dans le formulaire newsletter de la Home Page (les éléments de type bloc doivent avoir la propriété "margin:0 auto;" pour être centrés) */
+#homePage form.md_formNewsletter{
+	//border:1px solid red;
+	padding:0 10px 0 10px;
+	}
+		
+/* Style par défaut des labels de tous les inputs du formulaire newsletter de la Home Page */
+#homePage .md_formNewsletter label {
+	margin-top:10px;
+	}
+		
+/* Styles par défaut des inputs dans le formulaire de la Home Page (par ex. pour les centrer, leur donner une hauteur fixe et des bordures / marges communes) */
+#homePage form.md_formNewsletter input{
+	}
+	
+/*#homePage form.md_formNewsletter input.champs{
+	width: 80%;
+	height: 39px;
+	padding: 0px 0 2px 10px;
+	font-size: 16px;
+	}*/
+
+/* Styles par défaut du bouton OK dans le formulaire newsletter de la Home Page */
+/*#homePage .md_formNewsletter .md_formNewsletterOK{
+	width:44px;
+	height:44px;
+	margin:0px 0px 10px 0px;
+	background:#000;
+	color:#fff;
+	font-size:16px;
+	}*/
+
+/* Style par défaut des titres h3 de la Home Page */
+#homePage h3{
+	margin:0px 0 0 0;
+	text-align:center;
+	
+	}
+
+/*---------- SPECIFICITES PAGE S'INSCRIRE ATELIER NUBES --------------*/
+
+/* Pour les deux labels imbriqués dans le premier label du formulaire (car différents des autres labels) */
+input, textarea, select {
+   -webkit-appearance: none;
+   -webkit-border-radius: 0em;
+}
+
+form ul li div.md_square{
+	text-align:center;
+	}
+ 
+
+form ul li div.md_square2{
+	text-align:center;
+	margin:0;
+	margin-top:15px;
+	}
+	
+form ul li div.md_square label{
+	border:solid 1px black;
+	height:42px;
+	line-height:42px;
+	width:42px;
+	float:left;
+	margin-right:10px;
+	}
+	form ul li div.md_square2 label{
+	border:solid 1px black;
+	height:42px;
+	line-height:42px;
+	float:left;
+	margin-right:10px;
+	}
+/* A corriger ? */	
+input.md_squaredOne{ /*Bloc input Madame Monsieur*/
+	-webkit-appearance:checkbox;
+	width:44px;
+	height:44px;
+	//background-color:none;
+	//background-image: url(../../img/communPictoFacebookPurple.png)
+	//border:none;
+	//opacity:0.2;
+	//box-shadow:none;
+	cursor:auto;
+	margin:0;
+	}
+
+/* A corriger ? */
+.md_square{ /*Bloc Madame Monsieur à côté*/
+	display:inline-block;
+	//border:solid 2px red;
+	margin-right:15px;
+	}
+.
+/* A corriger ? */
+.md_square label{ /*Bloc Texte Madame Monsieur*/
+	//border:solid 2px black;
+	float:left;
+	width:44px;
+	height:44px;
+	}
+	.md_square2 label{ 
+	border:solid 1px black;
+	float:left;
+	width:44px;
+	height:46px;
+	float:left;
+	}
+/*---------- SPECIFICITES PAGE SUIVANTE... --------------*/
+
+#homePage .adresse{
+	text-align:center;
+	}

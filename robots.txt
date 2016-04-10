@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /inc/
+Disallow: /loginErreur.php
+Disallow: /login.php
+Disallow: /adherents/
+Disallow: /jquery/
+Disallow: /js/
+Disallow: /photosMobiles/
+Disallow: /photosMobilesVignette/
+Disallow: /photosOriginales/
+Disallow: /photosVignettes/
+Disallow: /photosVignettesMini/
+Disallow: /photosFancybox/
+Sitemap: http://atou.fr/sitemap.xml

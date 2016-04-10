@@ -1,0 +1,640 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*------------STYLE GENERAUX-------------*/
+
+#listeCreations .big, #accueilAdherents .big{
+	height:40px;
+	}
+
+.bordNoir{
+	border:2px solid black;
+	height: 440px; /* Ajout Nico 03/04/2015 */
+	}	
+	
+#listeCreations #zone1 h3, #accueilAdherents #zone1 h3{
+	position:absolute;
+	top:-20px;
+	left:-80px;
+	}
+
+
+/*------------A ajouter style GENERAUX-------------*/
+	
+object{
+	margin:20px;
+	}
+
+		
+/*------------Propre à liste création------------*/
+	
+#listeCreations .cadre1{; 
+	position:relative;
+	width:784px;
+	margin:0 auto;
+	}
+	
+#listeCreations #zone1 .cadre1 .cartouche {
+	position:absolute;
+	top:290px;
+	left:565px;
+	}		
+	
+#listeCreations .petitBlocContour{
+	width:200px;
+	float:left;
+	border-top:none;
+	}
+
+#listeCreations .grandBlocContour{
+	width:578px;
+	float:left;
+	border-top:none;
+	border-left:none;
+	}
+		
+#listeCreations #zone3 .cartouche{
+	position:absolute;
+	top:305px;
+	left:565px;
+	}
+	
+#listeCreations #zone3 h2{
+	color:black;
+	margin-bottom:30px;
+	}	
+
+#listeCreations #zone3 h3{
+	position:absolute;
+	top:93px;
+	left:-63px;
+	}	
+
+#listeCreations #zone1 .pictoPlayVideo{
+	position:absolute;
+	top:170px;
+	left:360px;
+	}	
+	
+/*------------Propre à accueil adhérents------------*/
+
+#accueilAdherents .cartouche p{
+	margin:0;
+	}
+		
+#accueilAdherents #zone1 .imgTacheBlanche, #accueilAdherents #zone3 .imgTacheBlanche{
+	left:-76px;
+	top:15px;
+	width:88px;
+	height:677px;
+	}
+		
+#accueilAdherents .cadre1{ 
+	position:relative;
+	//float:left;
+	width:626px;
+	margin-left:70px;
+	margin-top:20px;
+	}
+	
+#accueilAdherents .cadre2{ 
+	position:relative;
+	float:right;
+	width:626px;
+	margin-right:96px;
+	//margin-top:-31px;
+	}
+
+#accueilAdherents .cadre3{ 
+	position:relative;
+	width:626px;
+	margin-left:70px;	
+	margin-top:80px;
+	}
+	
+#accueilAdherents .cadre4{ 
+	position:relative;
+	float:right;
+	width:626px;
+	margin-right:96px;
+	margin-top:10px;
+	margin-bottom:70px;
+	}					
+
+#accueilAdherents #zone1 h3{
+	position:absolute;
+	top:-46px;
+	left:-70px;
+	}
+	
+#accueilAdherents #zone2 h3{
+	position:absolute;
+	top:-42px;
+	left:-220px;
+	}	
+
+#accueilAdherents #zone3 h3{
+	position:absolute;
+	top:-46px;
+	left:-70px;
+	}
+	
+#accueilAdherents #zone4 h3{
+	position:absolute;
+	top:-42px;
+	left:-220px;
+	}					
+	
+#accueilAdherents .petitBlocContour{
+	width:154px;
+	float:left;
+	border-top:none;
+	}
+
+#accueilAdherents .grandBlocContour{
+	width:466px;
+	float:left;
+	border-top:none;
+	border-left:none;
+	}
+	
+#accueilAdherents #zone1 .cartouche{
+	position:absolute;
+	top:260px;
+	left:575px;
+	}			
+	
+#accueilAdherents #zone2 .cartouche{
+	position:absolute;
+	top:305px;
+	left:420px;
+	}
+	
+#accueilAdherents #zone3 .cartouche{
+	position:absolute;
+	top:290px;
+	left:575px;
+	}
+	
+#accueilAdherents #zone4 .cartouche{
+	position:absolute;
+	top:305px;
+	left:420px;
+	}			
+
+/*------------Propre à liste actions------------*/
+	
+#listeActions .cadre1{; 
+	position:relative;
+	width:784px;
+	margin:0 auto;
+	}
+	
+#listeActions #zone1 .cadre1 .cartouche {
+	position:absolute;
+	top:290px;
+	left:575px;
+	}		
+	
+#listeActions .petitBlocContour{
+	width:200px;
+	height:42px;
+	float:left;
+	border-top:none;
+	//background:red;
+	}
+
+#listeActions .grandBlocContour{
+	width:578px;
+	height:42px;
+	float:left;
+	border-top:none;
+	border-left:none;
+	}
+		
+#listeActions #zone3 .cartouche, #listeActions #zone4 .cartouche{
+	//position:absolute;
+	//top:305px;
+	//left:565px;
+	}
+	
+#listeActions #zone3 h2{
+	color:black;
+	}
+	
+#listeActions #zone1 .pictoPlayVideo{
+	position:absolute;
+	top:170px;
+	left:360px;
+	}	
+	
+/*------------Propre à discussion------------*/	
+
+#discussion .cartouche p{
+	margin:0;
+	}
+	
+#discussion #zone1, #discussion #zone2{
+	width:944px;
+	position:relative;
+	//border:1px solid red;
+	
+	}
+	
+#discussion #zone1 .cadre1{ 
+	float:left;
+	width:626px;
+	margin-left:70px;
+	margin-bottom:40px;
+	}
+	
+#discussion #zone2 .cadre1{ 
+	float:left;
+	width:626px;
+	}	
+	
+#discussion #zone2 .cadre2{ 
+	//position:relative;
+	float:right;
+	width:300px;
+	margin-top:0px;
+	//border:1px solid yellow;
+	}		
+	
+#discussion .petitBlocContour{
+	width:154px;
+	height:46px;
+	float:left;
+	border-top:none;
+	}
+
+#discussion .grandBlocContour{
+	width:466px;
+	height:46px;
+	float:left;
+	border-top:none;
+	border-left:none;
+	}
+	
+#discussion #zone1 .cartouche{
+	position:absolute;
+	top:230px;
+	right:0px;
+	}
+	
+#discussion .blocRappel{
+	margin-top:0;
+	margin-bottom:20px;
+	}
+	
+#discussion .facebook{
+	position:relative;
+	whidth:200px;
+	float:right;
+	margin:0px;
+	background:white;
+	border:1px solid black;
+	color:black;
+	margin-right:20px;
+	background-image:url(../img/communPictoFacebookBlack.png);
+	background-repeat:no-repeat;
+	background-position:18px 14px;
+	}	
+	
+#discussion .facebook:hover{
+	color:white;
+	background:#81358a;
+	//margin-right:20px;
+	background-image:url(../img/communPictoFacebook.png);
+	background-repeat:no-repeat;
+	background-position:18px 14px;
+	}		
+	
+.titreQuestions{
+	font-family: "Alegreya Sans";
+	color:#81358A;
+	padding-top:20px;
+	font-weight:400;
+	font-size:32px;
+	text-transform:uppercase;
+	}
+	
+.datePublication{
+	color:#A2A2A2;
+	text-transform:uppercase;
+	font-size:12px;
+	margin-top:-10px;
+	font-weight:300;
+	}
+	
+.rappel{
+	font-weight:600;
+	font-size:16px;
+	}
+	
+#discussion form{
+	width:580px;
+	margin:0 auto;	
+}
+
+#discussion .callToAction5{
+	width:120px;
+	height:45px;
+	background-color:white;
+	font-family:"Alegreya Sans";
+	font-weight:300;
+	color:black;
+	font-size:18px;
+	text-align:center;
+	padding:10px;
+	border:1px black solid;
+	margin-top:5px;
+	float:right;
+	//text-transform:uppercase;
+}
+
+#discussion .callToAction5:hover{
+	background-color:#81358A;
+	font-family:"Alegreya Sans";
+	font-weight:300;
+	color:white;
+	}
+
+
+#discussion .name{
+	font-weight:600;
+	font-size:14px;	
+}
+
+#discussion .discussion{
+	//padding:20px 0 20px 0;
+	margin-top:-20px;
+	padding-bottom:15px;
+	border-bottom:1px solid grey;
+	font-size:15px;
+}
+
+
+/*------------PROPRE a liste Ateliers-------------*/
+
+.blocInformation a{
+	display:block;
+	color:black;
+	margin: 0;
+	//padding: 10px 20px 0 20px;
+	font-size: 15px;
+	//margin-top:10px;
+	}
+
+.blocInformation a:hover{
+	color:#81358A;
+	
+	}
+
+#listeAteliers #zone1, #listeAteliers #zone2{
+	position:relative;
+	width:944px;
+	}
+	
+#listeAteliers .largeurFixe{
+	width:340px;
+}
+
+#listeAteliers #zone1 .cadre1{
+	//position:relative;
+	float:left;
+	width:624px;
+	margin-top:20px;
+	}
+
+#listeAteliers #zone1 .cadre2 {
+	float:left;
+	margin-top:22px;	
+	}
+	
+#listeAteliers #zone2 .cadre1{
+	position:relative;
+	float:left;
+	width:624px;
+	margin-top:80px;
+	//background:white;
+	}
+	
+#listeAteliers #zone1 .cadre1 h3{
+	position:absolute;
+	top:-17px;
+	left:20px;
+	font-size:40px;
+	}
+	
+#listeAteliers #zone2 .cadre1 h3{
+	position:absolute;
+	top:-40px;
+	left:20px;
+	font-size:40px;
+	}	
+	
+#listeAteliers #zone1 .cadre1 p, #listeAteliers #zone2 .cadre1 p{
+	//position:relative;
+	float:left;
+	//margin-top:60px;
+	//width:300px;
+	//background:red;
+	}
+	
+#listeAteliers #zone1 .cadre2 {
+	//position:relative;
+	float:right;
+	//margin-top:60px;
+	width:300px;
+	//background:red;
+	}	
+	
+#listeAteliers .cadre1 .imgDroite{
+	float:right;
+	width:280px;
+	margin-top:20px;
+	}	
+
+#listeAteliers .cadre1 .lien{
+	position:relative;
+	float:left;
+	margin:0 0 0 4px;
+	height:10px;
+	border:none;
+	//background:red;
+	}
+	
+#listeAteliers .cadre1 .lien:hover{
+	margin:0 0 0 4px;
+	border:none;
+	background:white;
+	color:#6E2C77;
+	background-image:url(../img/communPictoCartouchePurple.png);
+	background-repeat: no-repeat;
+	background-position:20px 12px;
+	}	
+	
+#listeAteliers .blocFondblanc{
+	//background:white;
+	border:2px solid black;
+	padding:20px;
+	}
+
+#listeAteliers .facebook{
+	position:relative;
+	float:right;
+	margin:0px;
+	}
+		
+/*------------PROPRE a page partenaires-------------*/	
+
+#pagePartenaires .cadre1 ul{
+	width:944px;
+	height:500px;
+	}
+
+#pagePartenaires .cadre1 li{
+	float:left;
+	margin:25px;	
+}
+
+#pagePartenaires .cadre1 a{
+	display:block;	
+	text-indent:-9999px;     /*permet de décaler le texte du a à -9999 px à gauche de l'écran*/	
+}
+
+/*------------LOGO 01-------------*/	
+
+#pagePartenaires #logoMinistereCulture{
+	background:url(../photosVignettes/partenairesLogoCulture.jpg);
+	width:81px;
+	height:100px;
+	//border:1px solid yellow; 
+	}
+	
+#pagePartenaires #logoMinistereCulture:hover{
+	background:url(../photosVignettes/partenairesLogoCulture.jpg) 0 -100px;
+	}	
+	
+/*------------LOGO 02-------------*/	
+	
+#pagePartenaires #logoVilleLyon{
+	background:url(../photosVignettes/partenairesVilleLyon.jpg);
+	width:118px;
+	height:100px;
+	}
+	
+#pagePartenaires #logoVilleLyon:hover{
+	background:url(../photosVignettes/partenairesVilleLyon.jpg) 0 -100px;
+	}
+	
+/*------------LOGO 03-------------*/	
+	
+#pagePartenaires #logoRegion{
+	background:url(../photosVignettes/partenairesRegion.jpg);
+	width:112px;
+	height:100px;
+	}
+	
+#pagePartenaires #logoRegion:hover{
+	background:url(../photosVignettes/partenairesRegion.jpg) 0 -100px;
+	}	
+	
+/*------------LOGO 04-------------*/	
+	
+#pagePartenaires #logoRhone{
+	background:url(../photosVignettes/partenairesRhone.jpg);
+	width:137px;
+	height:100px;
+	}
+	
+#pagePartenaires #logoRhone:hover{
+	background:url(../photosVignettes/partenairesRhone.jpg) 0 -100px;
+	}
+	
+/*------------LOGO 05-------------*/	
+	
+#pagePartenaires #logoFondation{
+	background:url(../photosVignettes/partenairesFondationdefrance.jpg);
+	width:100px;
+	height:100px;
+	}
+	
+#pagePartenaires #logoFondation:hover{
+	background:url(../photosVignettes/partenairesFondationdefrance.jpg) 0 -100px;
+	}	
+	
+/*------------LOGO 06-------------*/	
+	
+#pagePartenaires #logoVauxenvelin{
+	background:url(../photosVignettes/partenairesVauxenvelin.jpg);
+	width:308px;
+	height:100px;
+	}
+	
+#pagePartenaires #logoVauxenvelin:hover{
+	background:url(../photosVignettes/partenairesVauxenvelin.jpg) 0 -100px;
+	}		
+	
+	/*------------LOGO 07-------------*/	
+	
+#pagePartenaires #logoSpedidam{
+	background:url(../photosVignettes/partenairesSpedidam.jpg);
+	width:183px;
+	height:100px;
+	}
+	
+#pagePartenaires #logoSpedidam:hover{
+	background:url(../photosVignettes/partenairesSpedidam.jpg) 0 -100px;
+	}		
+	
+	/*------------LOGO 08-------------*/	
+	
+#pagePartenaires #logoCharliechaplin{
+	background:url(../photosVignettes/partenairesCharliechaplin.jpg);
+	width:89px;
+	height:100px;
+	}
+	
+#pagePartenaires #logoCharliechaplin:hover{
+	background:url(../photosVignettes/partenairesCharliechaplin.jpg) 0 -100px;
+	}	
+	
+	/*------------LOGO 09-------------*/	
+	
+#pagePartenaires #logoAcse{
+	background:url(../photosVignettes/partenairesAcse.jpg);
+	width:162px;
+	height:100px;
+	}
+	
+#pagePartenaires #logoAcse:hover{
+	background:url(../photosVignettes/partenairesAcse.jpg) 0 -100px;
+	}					
+				
+				
+				
+				
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

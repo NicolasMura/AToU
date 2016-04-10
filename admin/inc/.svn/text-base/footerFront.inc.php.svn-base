@@ -1,0 +1,17 @@
+<nav id="menuFooter">
+	<ul>
+		<li><a href="#" id="partenaires">PARTENAIRES</a></li>
+		<li><a href="#" id="newsletter">NEWSLETTER</a></li>
+		<li><a href="#" id="plan">PLAN DU SITE</a></li>
+		<li><a href="#" id="mentions">MENTIONS LÉGALES</a></li>	
+		<li><a href="#" id="credits">CREDITS</a></li>
+	</ul>
+</nav>
+
+<p>
+	<a href="#" id="rsp1"><img src="<?php echo CHEMIN_SITE;?>/img/footerFacebook1024.png" alt="picto Facebook" width="24px" /></a>
+	<a href="#" id="rsp2"><img src="<?php echo CHEMIN_SITE;?>/img/footerVimeo1024.png" alt="picto Vimeo" width="24px" /></a>
+	<a href="#" id="rsp3"><img src="<?php echo CHEMIN_SITE;?>/img/footerLinkedIn1024.png" alt="picto LinkedIn" width="24px" /></a>
+</p>
+
+<p id="copyright">© AToU 2014.</p>

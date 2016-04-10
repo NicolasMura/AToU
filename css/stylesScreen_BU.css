@@ -1,0 +1,1050 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#compagnie section #zone1{
+	//border:1px solid yellow;
+	margin-bottom:44px;
+	}
+
+body{
+	margin:0 auto;
+	}
+	
+a{
+	text-decoration:none;
+	}
+	
+#top{
+	width: 42px;
+	height: 42px;
+	display: inline-block;
+	background-image: url(../img/communPictoTop.png);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	position: absolute;
+	right: 0px;
+	cursor:pointer;
+	position:fixed;
+	}
+	
+#top:hover{
+	background-image:url(../img/communPictoTopRoll.png);
+	background-repeat:no-repeat;
+	background-position:0px;
+	}
+
+.fondNoir{
+	background:black;
+	}
+
+.fondWhite{
+	background:white;
+	}
+	
+section{
+	width:944px;
+	margin:0 auto;
+	padding:0 40px;
+	}
+	
+.annule{
+	clear:both;
+	}
+
+/*--------------------Tache d'encre--------------------*/	
+	
+.imgTacheBlanche{
+	position:relative;
+	float:right;
+	width:55px;
+	height:571px;
+	margin-top:-60px;
+	}
+	
+.imgTacheNoir{
+	width:26px;
+	height:621px;
+	float:left;
+	margin-top:100px;
+	}	
+	
+/*--------------------Header--------------------*/
+
+.bgheader{
+	background:#fff;
+	}
+	
+#entete{
+	background:url(../img/menuMenu3000.png) 50px 50px no-repeat;
+	background-position:center bottom;
+	}
+
+header{
+	margin:0 auto;
+	width:1024px;
+	padding:10px 0 25px 0;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-position:bottom;
+	}
+
+header #logo{
+	float:left;
+	width:124px;
+	margin-left:40px;
+	background: #FFF;
+	}
+
+#menuHeader{
+	width:670px;
+	float:left;
+	text-align:center;
+	}
+
+#menuHeader ul{
+	margin-left:120px;
+	}	
+	
+nav li{
+	list-style:none;
+	float:left;
+	}
+
+nav a{
+	display:block !important;
+	height:68px !important;
+	line-height:68px !important;
+	font-family:Alegreya Sans !important;
+	font-size:16px !important;
+	color:#000 !important;
+	padding-top:5px !important;
+	}
+	
+nav a:hover{
+	color:#81358A !important;
+	}
+
+#adherents img{
+	margin-right:5px;
+	}
+	
+#compagnie1{
+	width:120px;
+	}
+	
+#creations{
+	width:120px;
+	}
+
+#actions{
+	width:155px;
+	}
+
+#adherents{
+	float:left;
+	width:150px;
+	height:68px;
+	line-height:68px;
+	font-family:Alegreya Sans;
+	font-size:16px;
+	margin:0 40px 0 0;
+	padding-top:5px;
+	}
+	
+/*--------------------Footer--------------------*/
+
+#bgfooter{
+	position:relative;
+	background:#fff;
+	}
+
+#pied{
+	position:relative;
+	background:url(../img/footerFooter3000.png) 50px 50px no-repeat;
+	background-position:center top;
+	}
+		
+footer{
+	margin:0 auto;
+	width:1024px;
+	overflow:hidden;
+	}
+	
+#menuFooter{
+	width:720px;
+	float:left;
+	text-align:center;
+	padding:20px 0px 0px 40px;
+	}	
+			
+#partenaires{
+	margin:5px 8px 0 0;
+	}
+	
+#newsletter{
+	margin:5px 8px 0 8px;
+	}
+
+#plan{
+	margin:5px 8px 0 8px;
+	}
+	
+#mentions{
+	margin:5px 8px 0 8px;
+	}
+	
+#credits{
+	margin:5px 8px 0 8px;
+	}
+
+#rsp1{
+	float:left;
+	margin:0 5px 15px 0;
+	padding-top:30px;
+	}
+
+#rsp2{
+	float:left;
+	margin:0 5px 0 5px;
+	padding-top:30px;
+	}
+	
+#rsp3{
+	float:left;
+	margin:0 15px 0 5px;
+	padding-top:30px;
+	}
+	
+#copyright{
+	float:right;
+	width:85px;
+	height:68px;
+	line-height:68px;
+	font-family:Alegreya Sans;
+	font-size:16px;
+	margin:0 40px 0 0;
+	padding-top:10px;
+	}
+
+/*--------------------Section--------------------*/
+
+p.filAriane{	
+	//padding-top:30px;
+	font-family:"Alegreya Sans";
+	font-weight:700;
+	font-size:11px;
+	color:white;
+	//float:left;	
+	text-transform:uppercase;
+	padding:5px 0 10px 0;
+	line-height:inherit;
+	margin:0;
+	}
+
+/*--------------------Encadré--------------------*/
+
+.black{
+	background-color:#000000;
+	border:2px solid white;
+	}
+	
+.white{
+	background-color:#fff;
+	border:2px solid #000;
+	}
+	
+/*--------------------Cartouche--------------------*/
+	
+.cartouche{
+	position:relative;
+	width:256px;
+	border:2px solid black;
+	background:white;
+	position:relative;
+	float:left;
+	padding:20px;
+	margin-bottom:20px;
+	}
+	
+.cartouche p{
+	margin:0;
+	padding:10px 0 20px 0;
+	line-height:20px;
+	//background:red;
+	}		
+	
+.cartouche_nm{
+	//position:relative;
+	width:256px;
+	border:2px solid black;
+	background:white;
+	//position:relative;
+	//float:left;
+	padding:20px;
+	margin:0 0 20px 0;
+	}
+	
+.cartouche_nm p{
+	margin:0;
+	padding:10px 0 5px 0;
+	line-height:20px;
+	//background:red;
+	}	
+	
+	
+	
+/*--------------------Call-to-action--------------------*/
+	
+.callToAction{
+	width:244px;
+	margin-top:-1px;	
+	position:relative;
+	float:left;
+	background-color:#81358A;
+	font-family:"Alegreya Sans";
+	font-weight:100;
+	color:#FFF;
+	font-size:28px;
+	line-height:38px;
+	text-align:center;
+	padding:25px;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	}
+	
+.callToAction:hover{
+	background-color:#6E2C77;
+	}		
+	
+.callToActionContact{
+	width:260px;
+	margin-top:-1px;	
+	position:relative;
+	float:left;
+	background-color:#81358A;
+	font-family:"Alegreya Sans";
+	font-weight:100;
+	color:#FFF;
+	font-size:28px;
+	line-height:34px;
+	text-align:center;
+	padding:20px;
+	margin-top:20px;
+	text-transform:uppercase;
+	}
+		
+.callToAction2{
+	position:relative;
+	float:left;
+	width:232px;
+	font-family:"Alegreya Sans";
+	font-weight:300;
+	color:#FFF;
+	font-size:16px;
+	padding:25px 5px 25px 60px;
+	background:#81358A url(../img/communPictoTelecharger.png) no-repeat 15px 15px;
+	margin-top:30px; 
+	text-transform:uppercase;
+	}
+
+.callToAction2:hover{
+	background-color:#6E2C77;
+ 	}
+	
+/*--------------------Facebook--------------------*/	
+
+.facebook{
+	position:relative;
+	float:right;
+	margin-top:30px;
+	margin-bottom:20px;
+	width:216px;
+	height:26px;
+	font-family:"Alegreya Sans";
+	color:#FFF;
+	font-size:21px;
+	line-height:26px;
+	//padding:20px;
+	padding:20px 20px 20px 65px;
+	border:1px solid white;
+	background-image:url(../img/communPictoFacebook.png);
+	background-repeat:no-repeat;
+	background-position:18px 14px;
+	}
+	
+.facebook:hover{
+	background:#6E2C77;
+	background-image:url(../img/communPictoFacebook.png);
+	background-repeat:no-repeat;
+	background-position:18px 14px;
+	}	
+	
+/*------------Bloc Information-------------*/
+	
+.blocInformation{
+	margin-top:20px;
+	background:white;
+	padding-top:1px;
+	padding-bottom:20px;
+	}	
+	
+.blocInformation p{
+	margin:0;
+	padding:10px 20px 0 20px;
+	font-size:15px;
+	}
+	
+.trait{	
+	border-top:2px solid black;
+	}
+	
+.contactTel{
+	font-family:"Alegreya Sans";
+	font-weight:600;
+	font-size:12x;
+	text-transform:uppercase;
+	}
+
+.contactMail{
+	font-family:"Alegreya Sans";
+	font-weight:600;
+	font-size:12px;
+	text-transform:uppercase;
+	}	
+
+/*--------------------Style de texte--------------------*/
+
+h1{
+	font-family:"Alegreya Sans";
+	font-weight:100;
+	font-size:60px;
+	color:white;	
+	text-align:center;	
+	text-transform:uppercase;
+	padding-bottom:40px;
+	}
+	
+h2{
+	font-family:"Alegreya Sans";
+	font-weight:100;
+	font-size:40px;
+	color:white;	
+	text-align:center;	
+	text-transform:uppercase;
+	padding-bottom:35px;
+	padding-top:35px;
+	}
+
+h3{
+	font-family:"Alegreya Sans";
+	font-weight:100;
+	font-size:50px;
+	color:white;	
+	text-transform:uppercase;
+	padding:20px 30px 20px 30px;	
+	}
+	
+.fonction{
+	font-family:"Alegreya Sans";
+	font-weight:100;
+	font-size:40px;
+	color:white;	
+	text-transform:uppercase;
+	padding-top:10px;
+	}
+
+h4{
+	font-family:helvetica;
+	font-weight:300;
+	font-size:23px;
+	color:#000;
+	margin-bottom:5px;
+	}
+	
+h5{
+	font-family:"Alegreya Sans";
+	font-weight:400;
+	font-size:26px;
+	color:#81358A;
+	margin:20px;
+	//padding-top:15px;
+	}
+	
+.titreH5{	
+	padding-top:10px;
+	line-height:32px;
+	margin-bottom:10px;
+	}
+	
+h6{
+	font-family:"Alegreya Sans";
+	font-weight:300;
+	color:#81358A;
+	font-size:26px;
+	line-height:30px;
+	text-transform:uppercase;
+	}
+
+.titreRappelAtelier{
+	margin:0px;
+	font-weight:400;
+	font-size:17px;
+	text-transform:uppercase;	
+	}	
+
+.chapo{
+	font-family:"Alegreya Sans";
+	font-size:19px;
+	line-height:26px;
+	font-weight:600;
+	color:#000;
+	margin:0px 20px 0 20px;
+	}
+	
+.citation{
+	font-family: Helvetica, sans-serif;
+	font-style:italic;
+	font-size:16px;
+	//line-height:23px;
+	//color:#000;
+	//padding-bottom:5px;
+	}
+	
+.signature{
+	font-family: Helvetica, sans-serif;
+	font-style:italic;
+	font-size:17px;
+	//line-height:23px;
+	//color:#000;
+	//padding-top:-20px;
+	padding-bottom:15px;
+	text-align:right;
+	}
+		
+.time{
+	font-family:helvetica;
+	font-weight:900;
+	text-transform:uppercase;
+	font-size:14px;
+	color:#81358A;	
+	}
+	
+p{
+	font-family: Helvetica, sans-serif;
+	font-size:16px;
+	line-height:23px;
+	color:#333;
+	margin:20px;
+	}
+	
+.toggle{
+	//float:left;
+	position:relative;
+	width:256px;
+	font-family: "Alegreya Sans";
+	font-size:21px;
+	font-weight:500;
+ 	color:#81358A;
+	background-color:#fff;
+	border:1px solid #000;
+	cursor:pointer;
+	padding:20px;
+	}
+	
+.deroule {
+	background-color:#fff;
+	border:1px solid #000;
+	padding:20px;
+	width:256px;
+	}
+
+.toggleDown {
+	background:#fff url(../img/communInfoDown.png) no-repeat 256px 22px;
+	}
+
+.toggleUp {
+ 	background:#fff url(../img/communInfoUp.png) no-repeat 256px 22px;
+	}
+
+.deroule > div + div{ /*Cible tous les div sauf le premier*/
+	margin-top:20px;
+	}
+	
+.infoGras{
+	font-family: Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:900;
+	line-height:18px;
+	color:#000;
+	}
+		
+.infoRom{
+	font-family: Helvetica, sans-serif;
+	font-size:14px;
+	line-height:18px;
+	color:#000;
+	padding-bottom:50px;
+	}
+	
+.infoItal{
+	font-family: Helvetica, sans-serif;
+	font-style:italic;
+	font-size:14px;
+	line-height:18px;
+	color:#000;
+	padding-bottom:50px;
+	}
+	
+.redirection1{
+	//display:block;
+	/*text-decoration:none; *//* Note Nico : propriété mutualisée pour tous les liens, cf. tout en haut de la page */
+	/*height:46px;*/
+	font-family: "Alegreya Sans";
+	font-size:21px;
+	font-weight:500;
+	/*line-height:46px;*/
+	color:#81358A;
+	/*margin:20px;*/
+	padding:20px 20px 20px 20px;
+	background-color:#fff;
+	border:1px solid #000;
+	/*width:254px;*/
+	/*position:absolute;*/
+/*	top:234px;*/
+	/*bottom:0px;
+	left:0px;*/
+	}
+
+.nm_displayInlineBlock{
+	display:inline-block;
+	width:256px;
+	}
+	
+.redirection2{
+	//text-decoration:none; /* Note Nico : propriété mutualisée pour tous les liens, cf. tout en haut de la page */
+	height:46px;
+	font-family: "Alegreya Sans";
+	font-size:21px;
+	font-weight:500;
+	line-height:46px;
+	color:#81358A;
+	//margin:20px;
+	padding:20px;
+	background-color:#fff;
+	border:1px solid #000;
+	width:254px;
+	position:absolute;
+/*	top:322px;*/
+	bottom:-88px;
+	left:0px;
+	}
+	
+.lien{
+	position:absolute;
+	//margin-top:20px;
+	left:-2px;
+	padding:10px 20px 10px 35px;
+	border:2px solid black;
+	background:white;
+	background-image:url(../img/communPictoCartoucheBlack.png);
+	background-repeat:no-repeat;
+	background-position:20px 12px;
+	color:black;
+	width:241px;	
+	font-family:"Alegreya Sans";
+	font-weight:600;
+	font-size:14px;
+	text-transform:uppercase;
+	}
+	
+.lien:hover{
+	color:white;	
+	background:#6E2C77;
+	background-image:url(../img/communPictoCartoucheWhite.png);
+	background-repeat: no-repeat;
+	background-position:20px 12px;
+	}
+/*--------------------Bloc rappel sur index ateliers--------------------*/
+
+.photoPossible{
+display:block;
+width: 300px;
+height: 200px;
+border: 1px solid green;
+}
+.photoMadness{
+border: 1px solid green;
+	
+}
+/*--------------------Bloc rappel sur index ateliers--------------------*/	
+	
+.blocRappel .lien{
+	margin:0 0 0 2px;
+	width:241px;
+	border:2px solid white;
+	}
+
+.blocRappel .lien:hover{
+	margin:0 0 0 2px;
+	border:2px solid white;
+	//width:236px;
+	//background:red;
+	}
+	
+.blocRappel{
+	margin-top:20px;
+	border:2px solid white;
+	}
+	
+.blocRappel h3{
+	width:236px;
+	top:-68px;
+	left:-10px;
+	background:black;
+	font-size:20px;
+	}
+	
+.blocDate{
+	background:white;
+	padding:20px;
+	}	
+/*------------Tableau-------------*/
+
+table{
+	//position:relative;
+	//background:red;
+	//width:624px;
+	//border:2px black solid red; 
+	//cellspacing:10; 
+	//cellpadding:20;       						/*Toujours mettre ces 3 valeurs ds l'ordre que l'on veut (épaisseur, couleur, style - continu ou pointillé - solid ou dotted)*/	
+	//border-collapse:collapse;			/*	Permet de fusionner les lignes, cela concerne les th et les td mais il faut les mettre ds la table*/
+	//table-layout:fixed;						/*Permet de fixer les colonnes avec la même largeur*/
+	//caption-side:bottom;				/*Permet de positionner la légende du tableau, là en bas*/			
+	}
+
+td{	     								/*on attaque plusieurs selecteurs avec le selecteur ","   */
+	//border:1px green solid;	
+	background:white;
+	color:#676767;
+	font-family:helvetica;
+	font-size:12px;
+	line-height:14px;
+	}	
+
+tr:nth-child(1) td:nth-child(1){					/*cellute lundi*/
+	background:black;
+	color:white;
+	font-family:"Alegreya Sans";
+	font-weight:300;
+	font-size:18px;
+	line-height:24px;
+	padding:5px 0 5px 20px;
+	text-transform:uppercase;	
+	}
+
+tr:nth-child(1) td:nth-child(2){					/*cellute reservé à.... */
+	background:#9D9D9C;
+	color:white;
+	font-family:"Alegreya Sans";
+	font-weight:600;
+	font-size:15px;
+	line-height:24px;
+	padding:5px 0 5px 10px;
+	text-transform:uppercase;
+}
+
+tr:nth-child(2) td:nth-child(1){					/*17h30 */
+	background:#DDD;
+	color:#81358A;
+	font-family:helvetica;
+	font-weight:300;
+	font-size:23px;
+	//line-height:34px;
+	//vertical-align: bottom;
+	padding:15px 0 0px 20px;
+	//text-transform:uppercase;
+}
+
+tr:nth-child(3) td:nth-child(1){					/*18h45*/
+	background:#DDD;
+	color:#81358A;
+	font-family:helvetica;
+	font-weight:300;
+	font-size:23px;
+	//line-height:24px;
+	padding:0px 0 5px 20px;
+	//text-transform:uppercase;
+}
+
+tr:nth-child(2) td:nth-child(2){					/*Salle de réunion du Centre Witkowska */
+	background:white;
+	color:black;
+	font-family:helvetica;
+	//font-weight:600;
+	font-size:20px;
+	line-height:24px;
+	padding:0px 0 0px 10px;
+	//text-transform:uppercase;
+}
+
+tr:nth-child(3) td:nth-child(2){					/*10, rue Simon Jallade / 69110 Sainte Foy-lès-Lyon*/
+	background:white;
+	color:#676767;
+	font-family:helvetica;
+	//font-weight:600;
+	font-size:14px;
+	line-height:24px;
+	padding:0px 0 15px 10px;
+	//text-transform:uppercase;
+}
+
+tr:nth-child(4) td:nth-child(n+2), tr:nth-child(5) td:nth-child(n+2) { 
+	padding:10px;
+	border:1px solid grey;
+	text-align:center;
+	text-transform:uppercase;
+	}	
+	
+	
+	
+/*---------------------------PAGES FORMULAIRES----------------------------*/
+
+/*---------------------------STYLES COMMUNS----------------------------*/    
+
+.titreFormulaire{
+    font-family:"Alegreya Sans";
+    font-weight:100;
+    font-size:48px;
+    color:#000;    
+    text-align:center;    
+    text-transform:uppercase;
+    padding-bottom:35px;
+    padding-top:35px;
+    }
+
+.texteFormulaire{
+    font-family: Helvetica, sans-serif;
+    font-size:13px;
+    line-height:16px;
+    color:#000;
+    margin:20px;
+    text-align:center;    
+    //padding-bottom:35px;
+    //padding-top:35px;
+    }	
+	
+/*---------------------------PAGES FORMULAIRES----------------------------*/
+
+
+/*---------------------------STYLES COMMUNS----------------------------*/	
+
+.formulaire{
+	width:900px;
+	padding:0 0 20px 0;
+	}
+
+.formulaire p {
+	margin:0;
+	}
+
+.cadreFormulaireLeft{
+	width:66%;
+	float:left;
+	}
+	
+.cadreFormulaireRight{
+	width:33%;
+	float:right;
+	background-color:#E9E9E9;
+	margin-top:40px; 
+	}
+	
+.cadreFormulaire1{
+	width:600px;
+	float:left;
+	margin-top:40px;
+	}
+
+#col1{
+	width:48%;
+	float:left;
+	}
+	
+#col2{
+	width:48%;
+	float:right;
+	margin:0 2% 0 0;
+	}
+
+.titreFormulaire1{
+	font-family:"Alegreya Sans";
+	font-weight:100;
+	font-size:48px;
+	line-height:44px;
+	color:#000;	
+	text-align:left;	
+	text-transform:uppercase;
+	padding:20px 0px 10px 0px;
+	}
+
+.titreFormulaire2{
+	font-family:"Alegreya Sans";
+	font-weight:400;
+	font-size:25px;
+	text-align:left;	
+	text-transform:uppercase;
+	color:#81358A;	
+	padding:10px 20px 0px 0px;
+	}
+
+.titreFormulaire3{
+	font-family: Helvetica, sans-serif;
+	font-weight:600;
+	line-height:16px;
+	padding:20px 20px 20px 20px;
+	margin:0px;
+	}
+	
+.titreFormulaire4{
+	font-family:Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:600;
+	color:#000;	
+	padding:0px 20px 5px 20px;
+	}
+
+.titreFormulaire5{
+	font-family:Helvetica, sans-serif;
+	font-size:18px;
+	line-height:20px;
+	}
+			
+.texteFormulaire{
+	font-family: Helvetica, sans-serif;
+	font-size:13px;
+	line-height:16px;
+	color:#000;
+	text-align:left;	
+	padding:10px 20px 10px 0px;
+	}
+	
+.texteFormulaire2{
+	font-family: Helvetica, sans-serif;
+	font-size:13px;
+	line-height:16px;
+	padding:0px 20px 20px 20px;
+	margin:0px;
+	}
+
+.texteFormulaire3{
+	font-family: Helvetica, sans-serif;
+	font-size:13px;
+	line-height:16px;
+	padding:0px 20px 20px 0px;
+	margin:0px;
+	font-style:italic;
+	}
+
+.entreesFormulaire, .civiliteFormulaire {
+	font-family:"Alegreya Sans";
+	font-weight:900;
+	font-size:13px;
+	color:#000;
+	text-transform:uppercase;
+	margin:10px 0px 10px 0px;
+	border:0px solid red;
+	position:relative;
+	}
+
+.civiliteFormulaire li {
+	display:inline-block;
+	}
+
+.civiliteFormulaire li label,.civiliteFormulaire li input[type="radio"]  {
+	display:inline-block;
+	margin:0 10px 0 0;
+	}
+	
+label{
+	margin:20px 0 10px 0;
+	display:block;
+	}
+	
+.labeLine {
+	line-height:16px;
+	display:inline;
+	}	
+	
+input[type="text"],input[type="email"],input[type="tel"],input[type="date"],input[type="password"]{
+	display:block;
+	width:95.5%;
+	padding-left:3%;
+	height:30px;
+	}
+	
+input placeholder{
+	font-family: Helvetica, sans-serif;
+	font-size:16px;
+	color:#808080;
+	}
+	
+textarea{
+	width:98%;
+	height:100px;
+	border-color:#808080;
+	}
+
+.callToAction3{	
+	width:120px;
+	height:45px;
+	background-color:#81358A;
+	font-family:"Alegreya Sans";
+	font-weight:300;
+	color:#FFF;
+	font-size:20px;
+	text-align:center;
+	padding:10px;
+	border:none;
+	margin-top:20px;
+	float:right;
+	text-transform:uppercase;
+	}
+	
+.callToAction3:hover{
+	background-color:#6E2C77;
+	}
+	
+.callToAction4{	
+	width:120px;
+	height:45px;
+	background-color:#81358A;
+	font-family:"Alegreya Sans";
+	font-weight:300;
+	color:#FFF;
+	font-size:20px;
+	text-align:center;
+	padding:10px;
+	border:none;
+	margin-top:0px;
+	float:right;
+	text-transform:uppercase;
+ 	}
+
+.callToActionPosition1{
+	margin-top:30px;
+	}
+
+.callToActionPosition2{
+	margin:30px 0 20px 0;
+	}
+
+.callToActionPosition3{
+	margin-bottom:20px;
+	}
+	
+.callToAction4:hover{
+	background-color:#6E2C77;
+	}
+
+
+
